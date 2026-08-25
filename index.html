@@ -8,10 +8,6 @@
 <meta property="og:title" content="Posewise">
 <meta property="og:description" content="Better asanas, five minutes a day. Camera-guided yoga alignment coaching, coming to iOS.">
 <meta property="og:type" content="website">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,340;9..144,440;9..144,560;9..144,650&family=Fraunces:ital,opsz,wght@1,9..144,440&display=swap" rel="stylesheet">
-
 <style>
   :root {
     --bg: #FFFFFF;
@@ -26,7 +22,6 @@
     --warning-bg: #F1E6CE;
     --shadow: rgba(32, 30, 27, 0.10);
 
-    --serif: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
     --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   }
 
@@ -107,8 +102,8 @@
   .brand img { width: 28px; height: 28px; }
 
   .brand-word {
-    font-family: var(--serif);
-    font-weight: 560;
+    font-family: var(--sans);
+    font-weight: 800;
     font-size: 1.28rem;
     letter-spacing: -0.01em;
     color: var(--ink);
@@ -177,19 +172,19 @@
   }
 
   h1 {
-    font-family: var(--serif);
-    font-weight: 440;
+    font-family: var(--sans);
+    font-weight: 800;
     font-size: clamp(2.6rem, 4.6vw, 4rem);
     line-height: 1.04;
-    letter-spacing: -0.015em;
+    letter-spacing: -0.02em;
     margin: 0 0 22px;
     text-wrap: balance;
     color: var(--ink);
   }
 
   h1 em {
-    font-style: italic;
-    font-weight: 440;
+    font-style: normal;
+    font-weight: 800;
     color: var(--accent-deep);
   }
 
@@ -232,8 +227,8 @@
   }
 
   .measure-card-title {
-    font-family: var(--serif);
-    font-weight: 500;
+    font-family: var(--sans);
+    font-weight: 700;
     font-size: 1.2rem;
   }
 
@@ -312,11 +307,11 @@
   }
 
   h2 {
-    font-family: var(--serif);
-    font-weight: 460;
+    font-family: var(--sans);
+    font-weight: 800;
     font-size: clamp(1.7rem, 2.6vw, 2.3rem);
     line-height: 1.14;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.015em;
     margin: 0;
     text-wrap: balance;
   }
@@ -364,16 +359,16 @@
   .step-icon img { width: 100%; height: 100%; display: block; }
 
   .step-index {
-    font-family: var(--serif);
-    font-style: italic;
+    font-family: var(--sans);
+    font-weight: 800;
     font-size: 0.95rem;
     color: var(--accent-deep);
     margin: 0 0 14px;
   }
 
   .step h3 {
-    font-family: var(--serif);
-    font-weight: 500;
+    font-family: var(--sans);
+    font-weight: 700;
     font-size: 1.14rem;
     margin: 0 0 10px;
   }
@@ -418,8 +413,8 @@
   .pose-body { padding: 20px 22px 22px; }
 
   .pose-card h3 {
-    font-family: var(--serif);
-    font-weight: 500;
+    font-family: var(--sans);
+    font-weight: 700;
     font-size: 1.08rem;
     margin: 0 0 8px;
   }
@@ -500,11 +495,12 @@
 
   blockquote {
     margin: 0;
-    font-family: var(--serif);
-    font-style: italic;
-    font-weight: 420;
+    font-family: var(--sans);
+    font-style: normal;
+    font-weight: 800;
     font-size: clamp(1.5rem, 2.4vw, 2rem);
-    line-height: 1.3;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
     color: var(--ink);
   }
 
@@ -654,7 +650,7 @@
       <a href="#poses">Poses</a>
       <a href="#voice">Why it's different</a>
     </nav>
-    <a class="btn btn-primary" href="#get-started">Sign up for the beta</a>
+    <a class="btn btn-primary" href="#get-started">Join the beta</a>
   </div>
 </header>
 
@@ -666,11 +662,10 @@
         <h1>Better <em>asanas</em>.<br>Five minutes a day.</h1>
         <p class="hero-sub">
           Hold a pose in front of your camera. Posewise reads your joint angles against
-          the target range, then builds a short corrective plan for exactly what's off —
-          no teacher in the room required.
+          the target range, then builds a short corrective plan for exactly what's off.
         </p>
         <div class="hero-ctas">
-          <a class="btn btn-primary" href="#get-started">Sign up for the beta</a>
+          <a class="btn btn-primary" href="#get-started">Join the beta</a>
           <a class="btn btn-ghost" href="#how">See how it works</a>
         </div>
         <p class="hero-note">In development for iOS. No account, no camera upload — everything runs on your device.</p>
@@ -792,7 +787,7 @@
     <div class="wrap">
       <div class="section-head">
         <p class="kicker">The real app</p>
-        <h2>Not a mockup — this is what's actually running.</h2>
+        <h2>Not a mockup. This is what's actually running.</h2>
         <p class="section-dek">Straight from the current build, on the current design system.</p>
       </div>
 
@@ -829,7 +824,7 @@
     <div class="wrap">
       <div class="cta-block">
         <p class="kicker">Coming to iOS</p>
-        <h2>Sign up for the beta.</h2>
+        <h2>Join the beta.</h2>
         <p class="cta-sub">Leave your email (and phone, if you'd like a text) and we'll reach out the moment beta spots open up.</p>
         <form class="cta-form" action="https://formsubmit.co/rachelsklar523@hotmail.com" method="POST">
           <input class="field field-name" type="text" name="name" placeholder="First name (optional)">
@@ -838,7 +833,7 @@
           <input type="hidden" name="_subject" value="New Posewise beta signup">
           <input type="hidden" name="_template" value="table">
           <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
-          <button class="btn btn-primary" type="submit">Sign up for the beta</button>
+          <button class="btn btn-primary" type="submit">Join the beta</button>
         </form>
       </div>
     </div>
