@@ -566,8 +566,7 @@
     flex-wrap: wrap;
   }
 
-  .cta-form input[type="email"],
-  .cta-form input[type="tel"] {
+  .cta-form .field {
     font-family: var(--sans);
     font-size: 0.92rem;
     padding: 11px 20px;
@@ -578,13 +577,14 @@
     min-width: 200px;
   }
 
-  .cta-form input[type="email"]:focus,
-  .cta-form input[type="tel"]:focus {
+  .cta-form .field-name { min-width: 160px; }
+
+  .cta-form .field:focus {
     outline: none;
     border-color: var(--accent);
   }
 
-  .cta-form input::placeholder { color: var(--ink-soft); }
+  .cta-form .field::placeholder { color: var(--ink-soft); }
 
   .cta-form button.btn { border: none; }
 
@@ -628,8 +628,7 @@
 
   @media (max-width: 480px) {
     .cta-form { flex-direction: column; align-items: stretch; }
-    .cta-form input[type="email"],
-    .cta-form input[type="tel"],
+    .cta-form .field,
     .cta-form button.btn { width: 100%; justify-content: center; }
   }
 
@@ -833,8 +832,9 @@
         <h2>Sign up for the beta.</h2>
         <p class="cta-sub">Leave your email (and phone, if you'd like a text) and we'll reach out the moment beta spots open up.</p>
         <form class="cta-form" action="https://formsubmit.co/rachelsklar523@hotmail.com" method="POST">
-          <input type="email" name="email" placeholder="Email address" required>
-          <input type="tel" name="phone" placeholder="Phone number (optional)">
+          <input class="field field-name" type="text" name="name" placeholder="First name (optional)">
+          <input class="field" type="email" name="email" placeholder="Email address" required>
+          <input class="field" type="tel" name="phone" placeholder="Phone number (optional)">
           <input type="hidden" name="_subject" value="New Posewise beta signup">
           <input type="hidden" name="_template" value="table">
           <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
