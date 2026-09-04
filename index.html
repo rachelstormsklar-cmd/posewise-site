@@ -59,18 +59,19 @@ h3{font-size:26px;letter-spacing:-.03em;line-height:1.12}
 
 /* phone */
 .ph{background:#0E0D0C;border-radius:38px;padding:8px;box-shadow:0 20px 44px var(--shadow-big);width:100%;max-width:290px;margin:0 auto}
-.ph .sc{width:100%;aspect-ratio:760/1652;border-radius:31px;background-size:cover;background-position:top center;background-repeat:no-repeat;background-color:var(--bg)}
+.ph .sc{width:100%;aspect-ratio:760/1652;border-radius:31px;background-color:var(--bg);overflow:hidden}
+.ph .sc img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block}
 
 /* nav */
 nav{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid var(--line)}
 nav .in{display:flex;align-items:center;justify-content:space-between;gap:14px;height:62px;padding:0 20px;max-width:1120px;margin:0 auto}
-.logowrap{position:relative;width:118px;height:29px;flex:none;display:block}
+.logowrap{position:relative;width:140px;height:34px;flex:none;display:block}
 .logowrap div{position:absolute;inset:0;background-repeat:no-repeat;background-position:left center;background-size:contain}
 nav .links{display:none}
 nav .navcta{width:auto;padding:10px 18px;font-size:14.5px}
 
 /* header */
-.header{position:relative;background:var(--art);overflow:hidden;border-bottom:1px solid var(--line);padding:44px 0 0}
+.header{position:relative;background:var(--art);overflow:hidden;border-bottom:1px solid var(--line);padding:44px 0 36px}
 .headerart{position:absolute;inset:0;pointer-events:none}
 .headerart i{position:absolute;display:block;background-repeat:no-repeat;background-size:contain;opacity:.16}
 .headerart .a{width:190px;height:190px;left:-56px;top:8px}
@@ -84,11 +85,11 @@ nav .navcta{width:auto;padding:10px 18px;font-size:14.5px}
 .rtb{list-style:none;padding:0;margin:0 0 26px;display:flex;flex-direction:column;gap:11px}
 .rtb li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:11px;align-items:start;font-size:16px;font-weight:600;letter-spacing:-.015em;line-height:1.32}
 .rtb svg{width:20px;height:20px;color:var(--accent);margin-top:1px}
-.hphone{margin:34px auto -18px;max-width:270px}
+.hphone{margin:34px auto 0;max-width:270px}
 
 /* stats */
 .stats{background:var(--surface);border-bottom:1px solid var(--line)}
-.statgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px 16px;padding:26px 20px;max-width:1120px;margin:0 auto}
+.statgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:26px 16px;padding:30px 20px;max-width:1120px;margin:0 auto;text-align:center}
 .stat b{display:block;font-size:29px;font-weight:800;letter-spacing:-.035em;line-height:1}
 .stat span{display:block;font-size:13.5px;color:var(--ink-soft);margin-top:4px}
 
@@ -110,18 +111,13 @@ section{padding:62px 0}
 
 /* fixing rows */
 .fixrow{display:grid;grid-template-columns:44px minmax(0,1fr);gap:13px;align-items:center;padding:13px 0;border-top:1px solid var(--line)}
-.fixrow .th{width:44px;height:44px;border-radius:11px;background:var(--art);background-size:cover;background-position:center}
+.fixrow .th{width:44px;height:44px;border-radius:11px;background-color:var(--art);background-size:cover;background-position:center}
 .fixrow b{display:block;font-size:15.5px;font-weight:700;letter-spacing:-.015em;line-height:1.25}
 .fixrow .ex{font-size:14px;font-weight:700;color:var(--accent)}
 
 .tallyline{display:flex;align-items:baseline;gap:11px;font-size:16px;color:var(--ink-soft)}
 .tallyline b{font-size:32px;font-weight:800;letter-spacing:-.035em;color:var(--accent)}
 .tallyline s{color:var(--ink-faint)}
-
-/* quote wall */
-.saysgrid{display:flex;flex-direction:column;gap:12px}
-.says{background:var(--surface);border-radius:22px;padding:22px 22px;font-size:18px;font-weight:700;letter-spacing:-.024em;line-height:1.28}
-.says em{font-style:normal;color:var(--accent)}
 
 /* poses */
 .posegrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
@@ -154,7 +150,7 @@ footer a{text-decoration:none}
   nav .in{height:70px;padding:0 28px}
   nav .links{display:flex;gap:26px;font-size:15px;font-weight:600;color:var(--ink-soft)}
   nav .links a{text-decoration:none}
-  .logowrap{width:140px;height:34px}
+  .logowrap{width:164px;height:40px}
 
   .header{padding:72px 0 0}
   .headerin{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,390px);gap:56px;align-items:end}
@@ -168,7 +164,7 @@ footer a{text-decoration:none}
   .rtb{margin-bottom:30px;max-width:44ch}
   .rtb li{font-size:17px}
   .hcta{flex-direction:row;gap:12px}
-  .hphone{margin:0;max-width:330px;transform:translateY(18px)}
+  .hphone{margin:0;max-width:330px}
 
   .statgrid{grid-template-columns:repeat(4,1fr);padding:32px 28px}
   .stat b{font-size:33px}
@@ -192,9 +188,6 @@ footer a{text-decoration:none}
   .fixrow .th{width:48px;height:48px}
   .fixrow .ex{text-align:right;font-size:15px}
 
-  .saysgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-  .says{padding:28px 26px;font-size:19px}
-  .says.big{grid-column:span 2;font-size:22px}
 
   .posegrid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:16px}
   .pose{border-radius:20px}
@@ -206,11 +199,6 @@ footer a{text-decoration:none}
   footer .links{margin-top:0}
 }
 
-.s-camera{background-image:url(assets/app_camera.webp)}
-.s-plan{background-image:url(assets/app_plan.webp)}
-.s-practice{background-image:url(assets/app_practice.webp)}
-.s-progress{background-image:url(assets/app_progress.webp)}
-.s-today{background-image:url(assets/app_today.webp)}
 .h-crescent_lunge{background-image:url(assets/art_crescent_lunge.webp)}
 .h-downward_dog{background-image:url(assets/art_downward_dog.webp)}
 .h-goddess_pose{background-image:url(assets/art_goddess_pose.webp)}
@@ -272,18 +260,18 @@ nav .navcta{padding:10px 16px;font-size:14px}
   <div class="wrap headerin">
     <div class="htext">
       <h1>Better asanas.<br>Six minutes a day.</h1>
-      <p class="lead">Posewise analyses your poses, then builds you a daily six-minute workout based on the specific strength and flexibility exercises <em>you</em> need to improve your practice.</p>
+      <p class="lead">Posewise analyses your poses, then builds custom workouts based on the strength and flexibility exercises <em>you</em> need to improve your practice.</p>
       <ul class="rtb">
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V5.5A1.5 1.5 0 0 1 5.5 4H8M16 4h2.5A1.5 1.5 0 0 1 20 5.5V8M20 16v2.5a1.5 1.5 0 0 1-1.5 1.5H16M8 20H5.5A1.5 1.5 0 0 1 4 18.5V16"/><circle cx="12" cy="12" r="3"/></svg><span>Camera-based pose analysis</span></li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a9 9 0 0 1 0 14"/></svg><span>Live mid-pose corrections</span></li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v-6M12 10V4M5 20v-4M5 12V4M19 20v-9M19 7V4"/><path d="M2.5 14h5M9.5 10h5M16.5 11h5"/></svg><span>Strength and flexibility workouts, built for you</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.5" r="2.1"/><path d="M12 6.8v6.1"/><path d="M5.6 10.2h12.8"/><path d="M12 12.9 8.2 20M12 12.9 15.8 20"/></svg><span>Guided strength and flexibility workouts, built for you</span></li>
       </ul>
       <div class="hcta">
         <a class="btn primary" href="#join">Join the beta</a>
       </div>
-      <p class="small">Free during the beta · iPhone only</p>
+      <p class="small">Free during beta · Built for iOS</p>
     </div>
-    <div class="hphone"><div class="ph"><div class="sc s-camera"></div></div></div>
+    <div class="hphone"><div class="ph"><div class="sc"><img src="assets/app_camera.webp" alt="Posewise camera view showing a Downward Dog pose with live pose analysis"></div></div></div>
   </div>
 </header>
 
@@ -318,11 +306,11 @@ nav .navcta{padding:10px 16px;font-size:14px}
           <h3>Your own three-week plan.</h3>
           <div class="fixrows">
             <div class="fixrow"><div class="th a-wall_slides"></div><div><b>Arms reaching overhead</b><div class="ex">Wall slides</div></div></div>
-            <div class="fixrow"><div class="th a-split_squat"></div><div><b>Front knee bend</b><div class="ex">Goblet squats</div></div></div>
+            <div class="fixrow"><div class="th a-split_squat"></div><div><b>Front knee bend</b><div class="ex">Split squats</div></div></div>
             <div class="fixrow"><div class="th a-hip_flexor_stretch"></div><div><b>Backbend depth at the hip</b><div class="ex">Hip flexor stretch</div></div></div>
           </div>
         </div>
-        <div class="vis"><div class="ph"><div class="sc s-plan"></div></div></div>
+        <div class="vis"><div class="ph"><div class="sc"><img src="assets/app_plan.webp" alt="Posewise three-week improvement plan screen"></div></div></div>
       </div>
 
       <div class="stepx">
@@ -330,7 +318,7 @@ nav .navcta{padding:10px 16px;font-size:14px}
           <span class="stepno"><i>3</i><span>Do your custom workouts</span></span>
           <h3>Six guided minutes a day.</h3>
         </div>
-        <div class="vis"><div class="ph"><div class="sc s-practice"></div></div></div>
+        <div class="vis"><div class="ph"><div class="sc"><img src="assets/app_practice.webp" alt="Posewise guided daily practice screen"></div></div></div>
       </div>
 
       <div class="stepx">
@@ -339,28 +327,14 @@ nav .navcta{padding:10px 16px;font-size:14px}
           <h3>Watch your pose change.</h3>
           <div class="tallyline"><b>3/5</b><span>in range now — <s>was 1/5</s></span></div>
         </div>
-        <div class="vis"><div class="ph"><div class="sc s-progress"></div></div></div>
+        <div class="vis"><div class="ph"><div class="sc"><img src="assets/app_progress.webp" alt="Posewise progress tracking screen"></div></div></div>
       </div>
 
     </div>
 
     <div style="margin-top:56px">
       <a class="btn primary" href="#join">Join the beta</a>
-      <p class="small">Free during the beta · iPhone only</p>
-    </div>
-  </div>
-</section>
-
-<section style="padding-top:0">
-  <div class="wrap">
-    <div class="shead"><h2>What you’ll hear.</h2></div>
-    <div class="saysgrid">
-      <div class="says big">“This is a baseline, not a grade — your 3-week plan is built around it, not <em>against</em> it.”</div>
-      <div class="says">“Still building strength here. Try push-up holds to help with this.”</div>
-      <div class="says">“Today’s work is what your Extended Side Angle has been waiting for.”</div>
-      <div class="says">“A day off is part of the plan — it’s when the work you’ve already done actually takes.”</div>
-      <div class="says">“Want me to build a plan around this?”</div>
-      <div class="says">“Let’s see how far you’ve come.”</div>
+      <p class="small">Free during beta · Built for iOS</p>
     </div>
   </div>
 </section>
@@ -406,7 +380,7 @@ nav .navcta{padding:10px 16px;font-size:14px}
       <input type="hidden" name="_next" value="https://posewise.app/thanks">
       <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
       <button class="btn primary" type="submit">Join the beta</button>
-      <p class="small">One click to unsubscribe. Never shared.</p>
+      <p class="small">One click to unsubscribe.</p>
     </form>
   </div>
 </section>
