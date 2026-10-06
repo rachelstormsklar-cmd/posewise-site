@@ -28,15 +28,15 @@
       "fix": "core",
       "name": "Low back",
       "good": "Lift from your glutes, not an arch in your low back",
-      "target": "Controlled",
+      "target": "115–180°",
       "small": "shoulder · hip · knee"
     },
     {
       "fix": "neck",
       "name": "Neck",
-      "good": "Neutral, chin off your chest",
-      "target": "Neutral",
-      "small": "hip · shoulder · ear"
+      "good": "Head resting on the mat, gaze straight up",
+      "target": "Resting",
+      "small": "ear vs shoulder"
     }
   ],
   "fixes": [
@@ -82,7 +82,7 @@
       "id": "neck",
       "action": "Free up your neck",
       "outcome": "it will stay long and safe under load.",
-      "why": "Your neck bears weight in Bridge. A chin jammed into the chest, or a head pressing back, puts that load in the wrong place.",
+      "why": "Your neck bears weight in Bridge. Lifting or turning your head, or rolling your shoulders off the mat, puts that load in the wrong place.",
       "exercises": [
         {
           "id": "chin_tuck",
@@ -95,7 +95,7 @@
           "dose": "20s a side"
         }
       ],
-      "cue": "Let your head rest heavy and keep your chin off your chest."
+      "cue": "Rest the back of your head on the mat and look straight up."
     }
   ],
   "cues": "<b>And one cue:</b> walk your feet close enough to your hips that your knees stack over your ankles.",

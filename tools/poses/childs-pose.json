@@ -8,7 +8,7 @@
   "meta_description": "Hips hovering above your heels, neck holding your head up, arms working to reach? Two things usually keep Child’s Pose from feeling restful, and a gentle fix for each.",
   "og_description": "Two things usually keep Child’s Pose from feeling restful, and a gentle daily exercise for each.",
   "lede": "Hips sinking toward your heels, arms long, forehead down and neck soft. Here’s the rubric Posewise measures it against, and what to train when you miss.",
-  "rubric_intro": "Posewise checks four things from the side. Here’s what good looks like.",
+  "rubric_intro": "Posewise checks three things from the side. Here’s what good looks like.",
   "rubric": [
     {
       "fix": "cues",
@@ -18,18 +18,11 @@
       "small": "hip vs heel"
     },
     {
-      "fix": "cues",
+      "fix": "lats",
       "name": "Arms",
       "good": "Long and relaxed in front of you",
       "target": "150–185°",
       "small": "shoulder · elbow · wrist"
-    },
-    {
-      "fix": "lats",
-      "name": "Hands",
-      "good": "Fingers long on the mat",
-      "target": "Extended",
-      "small": "wrist to fingertips"
     },
     {
       "fix": "neck",

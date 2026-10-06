@@ -21,8 +21,8 @@
       "fix": "hamstrings",
       "name": "Torso",
       "good": "Long over the front leg, hinged from the hip",
-      "target": "Long",
-      "small": "shoulder · hip · knee"
+      "target": "40–110°",
+      "small": "torso vs front thigh"
     },
     {
       "fix": "top-arm",

@@ -14,14 +14,14 @@
       "fix": "cues",
       "name": "Elbows",
       "good": "Softly bent, hugging your sides",
-      "target": "Soft bend",
+      "target": "Under 172°",
       "small": "shoulder · elbow · wrist"
     },
     {
       "fix": "upper-back",
       "name": "Back",
-      "good": "Lifting through your chest, not folding at the low back",
-      "target": "Even curve",
+      "good": "Chest lifted only as high as your back holds it, hips down",
+      "target": "130–178°",
       "small": "shoulder · hip · knee"
     },
     {
@@ -41,8 +41,8 @@
     {
       "fix": "cues",
       "name": "Wrists",
-      "good": "Weight across the whole palm",
-      "target": "Even",
+      "good": "Hands under your shoulders, weight across the whole palm",
+      "target": "80–168°",
       "small": "wrist bend"
     }
   ],
@@ -51,7 +51,7 @@
       "id": "upper-back",
       "action": "Free up your upper back",
       "outcome": "the backbend will lift through your chest, with your neck long.",
-      "why": "When the upper back is stiff, the bend usually piles into the low back and the chin juts up to make up the difference.",
+      "why": "With your hips down, lifting higher than your upper back can bend sends the rest into your low back, and the chin juts up to make up the difference.",
       "exercises": [
         {
           "id": "thoracic_extension_mobility",

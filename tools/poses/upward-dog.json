@@ -13,8 +13,8 @@
     {
       "fix": "pressing",
       "name": "Arms",
-      "good": "Straight, without locking",
-      "target": "Straight",
+      "good": "Straight, pressing the floor away",
+      "target": "160–185°",
       "small": "shoulder · elbow · wrist"
     },
     {
@@ -26,10 +26,10 @@
     },
     {
       "fix": "legs",
-      "name": "Legs",
-      "good": "Straight and active, thighs off the mat",
-      "target": "Straight",
-      "small": "hip · knee · ankle"
+      "name": "Thighs",
+      "good": "Lifted off the mat, legs active",
+      "target": "Lifted",
+      "small": "knee height off the mat"
     },
     {
       "fix": "shoulders",
@@ -48,8 +48,8 @@
     {
       "fix": "cues",
       "name": "Wrists",
-      "good": "Weight across the whole palm",
-      "target": "Even",
+      "good": "Shoulders over wrists, weight across the whole palm",
+      "target": "80–168°",
       "small": "wrist bend"
     }
   ],
