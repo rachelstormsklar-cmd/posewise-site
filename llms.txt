@@ -1,0 +1,11 @@
+# Posewise
+
+> Posewise is an iPhone app that uses the phone's camera to check yoga pose alignment. It measures joint angles from the side or front, speaks corrections out loud while you hold the pose, and builds a short daily workout (about six minutes) of the strength, flexibility and mobility exercises that address the specific faults it found. Pose detection runs on the device; no video is uploaded. It covers 14 poses and is currently in beta.
+
+## Pose guides
+
+- [How to improve your Downward Dog](https://posewise.app/poses/downward-dog): the seven most common Downward Dog alignment mistakes (rounded back, bent knees, heels high, weight forward, arms/elbows, head lifting, wrist pain), why each happens, and exercises that fix them.
+
+## About
+
+- [Home](https://posewise.app/): what Posewise does, the poses it covers, and how to join the beta.

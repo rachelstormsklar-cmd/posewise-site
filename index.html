@@ -121,6 +121,7 @@ section{padding:62px 0}
 /* poses */
 .posegrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
 .pose{background:var(--art);border-radius:18px;overflow:hidden;box-shadow:0 6px 14px var(--shadow);display:flex;flex-direction:column}
+a.pose{text-decoration:none;color:inherit}
 .pose .im{aspect-ratio:1;background-size:cover;background-position:center}
 .pose .cp{padding:10px 12px 12px;background:var(--bg);font-size:13.5px;font-weight:700;letter-spacing:-.012em;flex:1}
 
@@ -351,7 +352,7 @@ nav .navcta{padding:10px 16px;font-size:14px}
       <h2>Fourteen poses to work on.</h2>
     </div>
     <div class="posegrid">
-      <div class="pose"><div class="im a-downward_dog"></div><div class="cp">Downward Dog</div></div>
+      <a class="pose" href="/poses/downward-dog"><div class="im a-downward_dog"></div><div class="cp">Downward Dog <span aria-hidden="true">→</span></div></a>
       <div class="pose"><div class="im a-warrior_2"></div><div class="cp">Warrior II</div></div>
       <div class="pose"><div class="im a-warrior_1"></div><div class="cp">Warrior I</div></div>
       <div class="pose"><div class="im a-up_dog"></div><div class="cp">Upward Dog</div></div>
