@@ -1,0 +1,180 @@
+{
+  "slug": "downward-dog",
+  "name": "Downward Dog",
+  "about": "Downward-Facing Dog (Adho Mukha Svanasana)",
+  "published": "2026-10-06",
+  "hero": "/assets/art_downward_dog.webp",
+  "hero_alt": "Downward-Facing Dog, seen from the side",
+  "meta_description": "Rounded back, heels off the floor, bent elbows, sore wrists? Five things usually hold back Downward Dog, and a daily exercise that fixes each one.",
+  "og_description": "Five things usually hold back Downward Dog, and a daily exercise that fixes each one.",
+  "lede": "Hips high, back long, arms in line with your ears. Here’s the rubric Posewise measures it against, and what to train when you miss.",
+  "rubric_intro": "Posewise checks seven things from the side. Here’s what good looks like.",
+  "rubric": [
+    {
+      "fix": "hamstrings",
+      "name": "Back",
+      "good": "Long and flat, no rounding",
+      "target": "Flat",
+      "small": "shoulder to hip"
+    },
+    {
+      "fix": "hamstrings",
+      "name": "Knees",
+      "good": "Straight, but not locked",
+      "target": "165–185°",
+      "small": "hip · knee · ankle"
+    },
+    {
+      "fix": "calves",
+      "name": "Heels",
+      "good": "Reaching toward the floor",
+      "target": "62–95°",
+      "small": "ankle bend"
+    },
+    {
+      "fix": "shoulders",
+      "name": "Arms",
+      "good": "In one line with your torso",
+      "target": "155–185°",
+      "small": "hip · shoulder · elbow"
+    },
+    {
+      "fix": "pressing",
+      "name": "Elbows",
+      "good": "Straight under load",
+      "target": "160–185°",
+      "small": "shoulder · elbow · wrist"
+    },
+    {
+      "fix": "wrists",
+      "name": "Wrists",
+      "good": "Weight across the whole palm",
+      "target": "118–168°",
+      "small": "wrist bend"
+    },
+    {
+      "fix": "cues",
+      "name": "Head",
+      "good": "Hanging between your arms",
+      "target": "150–185°",
+      "small": "hip · shoulder · ear"
+    }
+  ],
+  "fixes": [
+    {
+      "id": "hamstrings",
+      "action": "Lengthen your hamstrings",
+      "outcome": "your back will stay flat and your legs will straighten.",
+      "why": "Tight hamstrings pull the pelvis under, round the back and keep the knees bent. Until they ease, bend your knees: a long back matters more than straight legs.",
+      "exercises": [
+        {
+          "id": "reclined_hamstring_stretch",
+          "name": "Reclined hamstring stretch",
+          "dose": "45s a side"
+        },
+        {
+          "id": "forward_fold_hamstring_release",
+          "name": "Bent-knee forward fold",
+          "dose": "45s"
+        }
+      ],
+      "cue": "Bend your knees and send your hips up and back."
+    },
+    {
+      "id": "calves",
+      "action": "Lengthen your calves",
+      "outcome": "your heels will reach closer to the floor.",
+      "why": "Tight calves cap how far the ankle bends. Your heels don’t need to touch.",
+      "exercises": [
+        {
+          "id": "calf_stretch",
+          "name": "Wall calf stretch",
+          "dose": "20s a side"
+        },
+        {
+          "id": "ankle_dorsiflexion_drill",
+          "name": "Ankle mobility drill",
+          "dose": "10 a side"
+        }
+      ],
+      "cue": "Pedal your heels down toward the mat."
+    },
+    {
+      "id": "shoulders",
+      "action": "Free up your shoulders",
+      "outcome": "your arms will reach in one line with your torso.",
+      "why": "Shoulder range runs out under load, so the arms stop short and the shoulders creep toward the ears.",
+      "exercises": [
+        {
+          "id": "wall_slides",
+          "name": "Wall slides",
+          "dose": "10 reps"
+        },
+        {
+          "id": "doorway_lat_stretch",
+          "name": "Doorway lat stretch",
+          "dose": "20s a side"
+        }
+      ],
+      "cue": "Reach your arms in line with your ears."
+    },
+    {
+      "id": "pressing",
+      "action": "Build pressing strength",
+      "outcome": "your arms will stay straight and your weight will shift back into your legs.",
+      "why": "When the shoulders and core give way, the elbows bend and you lean forward into your hands.",
+      "exercises": [
+        {
+          "id": "plank_hold",
+          "name": "Plank hold",
+          "dose": "30s"
+        },
+        {
+          "id": "plank_to_downdog",
+          "name": "Plank to down dog",
+          "dose": "8 slow reps"
+        }
+      ],
+      "cue": "Push the floor away and send your hips back."
+    },
+    {
+      "id": "wrists",
+      "action": "Free up your wrists",
+      "outcome": "your weight will spread across the whole palm.",
+      "why": "Weight sinking into the heel of the hand is the usual cause of wrist pain here.",
+      "exercises": [
+        {
+          "id": "wrist_mobility_prep",
+          "name": "Wrist mobility prep",
+          "dose": "40s"
+        },
+        {
+          "id": "scapular_pushups",
+          "name": "Scapular push-ups",
+          "dose": "12 reps"
+        }
+      ],
+      "cue": "Spread your fingers and press through each knuckle."
+    }
+  ],
+  "cues": "<b>And one cue:</b> let your head hang between your arms instead of looking forward.",
+  "faq": [
+    {
+      "q": "Do my heels need to touch the floor in Downward Dog?",
+      "a": "No. Lifted heels usually mean tight calves, not a mistake. Reach them toward the floor without forcing it."
+    },
+    {
+      "q": "Is it OK to bend my knees in Downward Dog?",
+      "a": "Yes. If straight legs round your back, bend your knees. A long back matters more than straight legs."
+    },
+    {
+      "q": "Why do my wrists hurt in Downward Dog?",
+      "a": "Usually too much weight in the heel of the hand. Spread your fingers, press through your knuckles, and send your hips back."
+    },
+    {
+      "q": "How can I check my Downward Dog form at home?",
+      "a": "Film yourself from the side. Or use Posewise, an iPhone app that measures your Downward Dog with the camera, speaks corrections as you hold it, and builds a six-minute daily plan for what it finds."
+    }
+  ],
+  "llms_summary": "the five things that usually hold back Downward Dog (tight hamstrings, tight calves, stiff shoulders, weak pressing strength, stiff wrists), with the alignment rubric and a daily exercise for each."
+}

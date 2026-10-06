@@ -1,0 +1,135 @@
+{
+  "slug": "crescent-lunge",
+  "name": "Crescent Lunge",
+  "about": "Crescent Lunge (Anjaneyasana)",
+  "published": "2026-10-06",
+  "hero": "/assets/art_crescent_lunge.webp",
+  "hero_alt": "Crescent Lunge, seen from the side",
+  "meta_description": "Front knee not reaching 90°, back knee bending, torso tipping forward, arms short of overhead? Three things usually hold back Crescent Lunge, and how to fix each.",
+  "og_description": "Three things usually hold back Crescent Lunge, and a daily exercise that fixes each one.",
+  "lede": "Front knee over the ankle at a right angle, back heel lifted with the leg straight, torso tall, arms reaching up. Here’s the rubric Posewise measures it against, and what to train when you miss.",
+  "rubric_intro": "Posewise checks six things from the side. Here’s what good looks like.",
+  "rubric": [
+    {
+      "fix": "legs",
+      "name": "Front knee",
+      "good": "Bent to a right angle, over the ankle",
+      "target": "80–100°",
+      "small": "hip · knee · ankle"
+    },
+    {
+      "fix": "hip-flexors",
+      "name": "Back leg",
+      "good": "Straight and strong",
+      "target": "160–185°",
+      "small": "hip · knee · ankle"
+    },
+    {
+      "fix": "hip-flexors",
+      "name": "Torso",
+      "good": "Tall, stacked over your hips",
+      "target": "0–12°",
+      "small": "lean from vertical"
+    },
+    {
+      "fix": "cues",
+      "name": "Back heel",
+      "good": "Lifted, over the ball of your foot",
+      "target": "Lifted",
+      "small": "heel vs toe"
+    },
+    {
+      "fix": "shoulders",
+      "name": "Arms",
+      "good": "Straight up, in line with your ears",
+      "target": "155–185°",
+      "small": "hip · shoulder · elbow"
+    },
+    {
+      "fix": "shoulders",
+      "name": "Hands",
+      "good": "Reaching through the fingertips",
+      "target": "Long",
+      "small": "wrist to fingertip"
+    }
+  ],
+  "fixes": [
+    {
+      "id": "legs",
+      "action": "Build quad and glute strength",
+      "outcome": "your front knee will reach a 90° bend.",
+      "why": "The shape is there, the depth isn’t. That usually points to leg strength, not technique.",
+      "exercises": [
+        {
+          "id": "split_squat",
+          "name": "Split squats",
+          "dose": "8 a side"
+        },
+        {
+          "id": "wall_lunge_hold",
+          "name": "Wall lunge hold",
+          "dose": "20s a side"
+        }
+      ],
+      "cue": "Bend your front knee toward 90°, right over your ankle."
+    },
+    {
+      "id": "hip-flexors",
+      "action": "Lengthen your hip flexors and quads",
+      "outcome": "your back leg will straighten and your torso will stay tall.",
+      "why": "Tight hip flexors and quads on the back leg bend the knee and tip the pelvis, so the chest leans forward.",
+      "exercises": [
+        {
+          "id": "hip_flexor_stretch",
+          "name": "Low lunge stretch",
+          "dose": "30s a side"
+        },
+        {
+          "id": "standing_quad_stretch",
+          "name": "Standing quad stretch",
+          "dose": "20s a side"
+        }
+      ],
+      "cue": "Press back through your back heel and lift your chest."
+    },
+    {
+      "id": "shoulders",
+      "action": "Free up your shoulders",
+      "outcome": "your arms will reach straight up, in line with your ears.",
+      "why": "When shoulder range runs out overhead, the arms angle forward and the shoulders creep toward the ears.",
+      "exercises": [
+        {
+          "id": "wall_slides",
+          "name": "Wall slides",
+          "dose": "10 reps"
+        },
+        {
+          "id": "doorway_lat_stretch",
+          "name": "Doorway lat stretch",
+          "dose": "20s a side"
+        }
+      ],
+      "cue": "Reach your arms up in line with your ears, through your fingertips."
+    }
+  ],
+  "cues": "<b>And one cue:</b> stay up on the ball of your back foot. If the heel drops, you’re in Warrior I; if it shoots very high, step that foot further back.",
+  "faq": [
+    {
+      "q": "What’s the difference between Crescent Lunge and Warrior I?",
+      "a": "In Crescent Lunge your back heel is lifted and your back toes point forward. In Warrior I the back heel is down, with the foot turned out about 45°."
+    },
+    {
+      "q": "Should my back knee be straight in Crescent Lunge?",
+      "a": "Yes, long and active, pressing back through your heel. If that’s too much, lower the back knee to the mat for a low lunge."
+    },
+    {
+      "q": "How do I balance better in Crescent Lunge?",
+      "a": "Keep your feet hip-width apart, not on one line, and firm both legs. Fix your gaze on a point that isn’t moving."
+    },
+    {
+      "q": "How can I check my Crescent Lunge form at home?",
+      "a": "Film yourself from the side. Or use Posewise, an iPhone app that measures your Crescent Lunge with the camera, speaks corrections as you hold it, and builds a six-minute daily plan for what it finds."
+    }
+  ],
+  "llms_summary": "the three things that usually hold back Crescent Lunge (leg strength for a 90° front knee, tight hip flexors and quads bending the back leg and tipping the torso, shoulder mobility for arms overhead), with the alignment rubric and a daily exercise for each."
+}

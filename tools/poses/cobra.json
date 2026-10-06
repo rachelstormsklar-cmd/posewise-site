@@ -1,0 +1,113 @@
+{
+  "slug": "cobra",
+  "name": "Cobra Pose",
+  "about": "Cobra Pose (Bhujangasana)",
+  "published": "2026-10-06",
+  "hero": "/assets/art_cobra.webp",
+  "hero_alt": "Cobra Pose, seen from the side",
+  "meta_description": "Low back crunching, hips lifting off the mat, neck cranked back? Two things usually hold back Cobra Pose, and a daily exercise that fixes each one.",
+  "og_description": "Two things usually hold back Cobra Pose, and a daily exercise that fixes each one.",
+  "lede": "Hips and thighs on the mat, elbows soft, chest lifting from your upper back with your neck long. Here’s the rubric Posewise measures it against, and what to train when you miss.",
+  "rubric_intro": "Posewise checks five things from the side. Here’s what good looks like.",
+  "rubric": [
+    {
+      "fix": "cues",
+      "name": "Elbows",
+      "good": "Softly bent, hugging your sides",
+      "target": "Soft bend",
+      "small": "shoulder · elbow · wrist"
+    },
+    {
+      "fix": "upper-back",
+      "name": "Back",
+      "good": "Lifting through your chest, not folding at the low back",
+      "target": "Even curve",
+      "small": "shoulder · hip · knee"
+    },
+    {
+      "fix": "pelvis",
+      "name": "Hips",
+      "good": "Hips and thighs on the mat",
+      "target": "Grounded",
+      "small": "hip vs shoulder–ankle line"
+    },
+    {
+      "fix": "upper-back",
+      "name": "Neck",
+      "good": "Long, continuing the curve of your spine",
+      "target": "145–185°",
+      "small": "hip · shoulder · ear"
+    },
+    {
+      "fix": "cues",
+      "name": "Wrists",
+      "good": "Weight across the whole palm",
+      "target": "Even",
+      "small": "wrist bend"
+    }
+  ],
+  "fixes": [
+    {
+      "id": "upper-back",
+      "action": "Free up your upper back",
+      "outcome": "the backbend will lift through your chest, with your neck long.",
+      "why": "When the upper back is stiff, the bend usually piles into the low back and the chin juts up to make up the difference.",
+      "exercises": [
+        {
+          "id": "thoracic_extension_mobility",
+          "name": "Upper-back extensions",
+          "dose": "8–10 reps"
+        },
+        {
+          "id": "chin_tuck",
+          "name": "Chin tucks",
+          "dose": "10 slow reps"
+        }
+      ],
+      "cue": "Lead with your chest, not your chin."
+    },
+    {
+      "id": "pelvis",
+      "action": "Free up your pelvis and low back",
+      "outcome": "your hips will stay grounded as your chest lifts.",
+      "why": "Hips lifting usually means pushing too hard through the hands. Pelvic control lets you anchor them and lift with your back instead.",
+      "exercises": [
+        {
+          "id": "pelvic_tilt_drill",
+          "name": "Pelvic tilts",
+          "dose": "10 slow reps"
+        },
+        {
+          "id": "core_bracing_drill",
+          "name": "Core bracing",
+          "dose": "10 reps"
+        }
+      ],
+      "cue": "Let your hips melt down toward the mat."
+    }
+  ],
+  "cues": "<b>And two cues:</b> keep a soft bend in your elbows, hugged to your sides, and spread your fingers so your whole palm takes the weight.",
+  "faq": [
+    {
+      "q": "Should my hips lift off the floor in Cobra Pose?",
+      "a": "No. Your hips, thighs and the tops of your feet stay on the mat. If your hips lift, you’re moving toward Upward Dog; lower your chest a little."
+    },
+    {
+      "q": "Should my arms be straight in Cobra Pose?",
+      "a": "No. Keep a soft bend with your elbows hugging your sides, and lift only as high as your back allows. Pushing up with your arms just sends the bend into your low back."
+    },
+    {
+      "q": "Why does my lower back hurt in Cobra Pose?",
+      "a": "Usually you’re lifting too high, so the bend piles into the low back. Come down lower, press the tops of your feet into the mat, and draw your chest forward and up."
+    },
+    {
+      "q": "What’s the difference between Cobra and Upward Dog?",
+      "a": "In Cobra your hips and thighs stay on the floor and your elbows stay bent. In Upward Dog your arms straighten and your thighs lift off the mat."
+    },
+    {
+      "q": "How can I check my Cobra Pose form at home?",
+      "a": "Film yourself from the side. Or use Posewise, an iPhone app that measures your Cobra Pose with the camera, speaks corrections as you hold it, and builds a six-minute daily plan for what it finds."
+    }
+  ],
+  "llms_summary": "the two things that usually hold back Cobra Pose (a stiff upper back that sends the bend into the low back and neck, and pelvic control to keep the hips grounded), with the alignment rubric and a daily exercise for each."
+}

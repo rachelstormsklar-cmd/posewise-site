@@ -1,0 +1,165 @@
+{
+  "slug": "chair",
+  "name": "Chair Pose",
+  "about": "Chair Pose (Utkatasana)",
+  "published": "2026-10-06",
+  "hero": "/assets/art_chair.webp",
+  "hero_alt": "Chair Pose, seen from the side",
+  "meta_description": "Not sinking low, knees past your toes, heels lifting, back arching, arms short of overhead? Four things usually hold back Chair Pose, and an exercise for each.",
+  "og_description": "Four things usually hold back Chair Pose, and a daily exercise that fixes each one.",
+  "lede": "Hips sitting back and down, weight in your heels, torso leaning slightly forward, arms reaching up. Here’s the rubric Posewise measures it against, and what to train when you miss.",
+  "rubric_intro": "Posewise checks seven things from the side. Here’s what good looks like.",
+  "rubric": [
+    {
+      "fix": "legs",
+      "name": "Knee bend",
+      "good": "Sitting low, thighs sinking toward level",
+      "target": "95–150°",
+      "small": "hip · knee · ankle"
+    },
+    {
+      "fix": "legs",
+      "name": "Knees",
+      "good": "Over your feet, not shooting past your toes",
+      "target": "Over feet",
+      "small": "knee vs ankle"
+    },
+    {
+      "fix": "ankles",
+      "name": "Ankles",
+      "good": "Shins tipped forward, heels down",
+      "target": "60–88°",
+      "small": "shin · foot"
+    },
+    {
+      "fix": "core",
+      "name": "Torso",
+      "good": "Leaning slightly forward, spine long",
+      "target": "15–50°",
+      "small": "lean from vertical"
+    },
+    {
+      "fix": "shoulders",
+      "name": "Arms",
+      "good": "Reaching up, in line with your ears",
+      "target": "155–185°",
+      "small": "hip · shoulder · elbow"
+    },
+    {
+      "fix": "shoulders",
+      "name": "Wrists",
+      "good": "Straight, in line with your forearms",
+      "target": "150–185°",
+      "small": "elbow · wrist · hand"
+    },
+    {
+      "fix": "cues",
+      "name": "Neck",
+      "good": "Long, in line with your spine",
+      "target": "150–185°",
+      "small": "hip · shoulder · ear"
+    }
+  ],
+  "fixes": [
+    {
+      "id": "legs",
+      "action": "Build quad and glute strength",
+      "outcome": "you’ll sit lower without your knees driving forward.",
+      "why": "A shallow chair, or knees shooting past the toes, usually means the legs aren’t yet strong enough to sit back.",
+      "exercises": [
+        {
+          "id": "goblet_squat",
+          "name": "Goblet squats",
+          "dose": "12 reps"
+        },
+        {
+          "id": "split_squat",
+          "name": "Split squats",
+          "dose": "8 a side"
+        }
+      ],
+      "cue": "Sit your hips back and down, like sitting into a chair."
+    },
+    {
+      "id": "ankles",
+      "action": "Free up your ankles",
+      "outcome": "your shins can tip forward while your heels stay down.",
+      "why": "Tight calves stop the shins tipping forward, which caps how low you can sit, however strong your legs are.",
+      "exercises": [
+        {
+          "id": "ankle_dorsiflexion_drill",
+          "name": "Ankle mobility drill",
+          "dose": "10 a side"
+        },
+        {
+          "id": "calf_stretch",
+          "name": "Wall calf stretch",
+          "dose": "20s a side"
+        }
+      ],
+      "cue": "Let your shins tip forward, weight staying in your heels."
+    },
+    {
+      "id": "core",
+      "action": "Build core control",
+      "outcome": "your torso will hold a steady forward lean without your low back arching.",
+      "why": "Folding far forward from the low back, or staying bolt upright, usually points to core control.",
+      "exercises": [
+        {
+          "id": "core_stability_work",
+          "name": "Dead bugs",
+          "dose": "8 a side"
+        },
+        {
+          "id": "pelvic_tilt_drill",
+          "name": "Pelvic tilts",
+          "dose": "10 slow reps"
+        }
+      ],
+      "cue": "Sink through your hips and lift your chest."
+    },
+    {
+      "id": "shoulders",
+      "action": "Free up your shoulders",
+      "outcome": "your arms will reach up in line with your ears.",
+      "why": "When shoulder range runs out overhead, the arms stop short, the wrists bend back and the shoulders creep toward the ears.",
+      "exercises": [
+        {
+          "id": "wall_slides",
+          "name": "Wall slides",
+          "dose": "10 reps"
+        },
+        {
+          "id": "doorway_lat_stretch",
+          "name": "Doorway lat stretch",
+          "dose": "20s a side"
+        }
+      ],
+      "cue": "Reach your arms up in line with your ears."
+    }
+  ],
+  "cues": "<b>And one cue:</b> keep your neck long and look ahead rather than craning up at your hands.",
+  "faq": [
+    {
+      "q": "Should my knees go past my toes in Chair Pose?",
+      "a": "Keep them roughly over your toes by sitting your hips back. If you can’t see your toes, sit back more."
+    },
+    {
+      "q": "Where should my weight be in Chair Pose?",
+      "a": "Mostly in your heels, enough that you could lift your toes. Weight in the balls of your feet pushes your knees forward."
+    },
+    {
+      "q": "Should I lean forward in Chair Pose?",
+      "a": "A little. Your torso tips forward as your hips sit back, with your spine long. Draw your tailbone down rather than arching your low back."
+    },
+    {
+      "q": "What if my shoulders hurt with my arms overhead?",
+      "a": "Take your hands shoulder-width or wider, or bring them to your heart. Keep your shoulders away from your ears."
+    },
+    {
+      "q": "How can I check my Chair Pose form at home?",
+      "a": "Film yourself from the side. Or use Posewise, an iPhone app that measures your Chair Pose with the camera, speaks corrections as you hold it, and builds a six-minute daily plan for what it finds."
+    }
+  ],
+  "llms_summary": "the four things that usually hold back Chair Pose (leg strength to sit low without the knees driving forward, ankle mobility to let the shins tip forward, core control for a steady forward lean, shoulder mobility for arms overhead), with the alignment rubric and a daily exercise for each."
+}

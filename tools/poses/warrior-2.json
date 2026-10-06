@@ -1,0 +1,191 @@
+{
+  "slug": "warrior-2",
+  "name": "Warrior II",
+  "about": "Warrior II (Virabhadrasana II)",
+  "published": "2026-10-06",
+  "hero": "/assets/art_warrior_2.webp",
+  "hero_alt": "Warrior II, seen from the side",
+  "meta_description": "Front knee not reaching 90°, back knee bending, torso leaning, arms drooping? Five things usually hold back Warrior II, and a daily exercise that fixes each one.",
+  "og_description": "Five things usually hold back Warrior II, and a daily exercise that fixes each one.",
+  "lede": "Front knee over the ankle at a right angle, back leg straight, torso upright, arms level. Here’s the rubric Posewise measures it against, and what to train when you miss.",
+  "rubric_intro": "Posewise checks eight things, from the side and the front. Here’s what good looks like.",
+  "rubric": [
+    {
+      "fix": "legs",
+      "name": "Front knee",
+      "good": "Bent to a right angle, over the ankle",
+      "target": "80–100°",
+      "small": "hip · knee · ankle"
+    },
+    {
+      "fix": "back-leg",
+      "name": "Back leg",
+      "good": "Straight and strong",
+      "target": "165–185°",
+      "small": "hip · knee · ankle"
+    },
+    {
+      "fix": "core",
+      "name": "Torso",
+      "good": "Upright, stacked between your feet",
+      "target": "0–12°",
+      "small": "lean from vertical"
+    },
+    {
+      "fix": "outer-hips",
+      "name": "Knee tracking",
+      "good": "Over your front foot, not caving in",
+      "target": "In line",
+      "small": "front view"
+    },
+    {
+      "fix": "arms",
+      "name": "Arms",
+      "good": "Level with your shoulders",
+      "target": "Level",
+      "small": "front view"
+    },
+    {
+      "fix": "core",
+      "name": "Shoulders",
+      "good": "Level, not tipping toward the front leg",
+      "target": "0–9°",
+      "small": "tilt"
+    },
+    {
+      "fix": "cues",
+      "name": "Front foot",
+      "good": "Pointing straight ahead",
+      "target": "0–22°",
+      "small": "turn-out"
+    },
+    {
+      "fix": "cues",
+      "name": "Gaze",
+      "good": "Out over your front hand",
+      "target": "Turned",
+      "small": "front view"
+    }
+  ],
+  "fixes": [
+    {
+      "id": "legs",
+      "action": "Build quad and glute strength",
+      "outcome": "your front knee will reach a 90° bend.",
+      "why": "The shape is there, the depth isn’t. That points to leg strength, not technique.",
+      "exercises": [
+        {
+          "id": "split_squat",
+          "name": "Split squats",
+          "dose": "8 a side"
+        },
+        {
+          "id": "wall_lunge_hold",
+          "name": "Wall lunge hold",
+          "dose": "20s a side"
+        }
+      ],
+      "cue": "Sink until your front thigh is parallel to the floor, knee over ankle."
+    },
+    {
+      "id": "outer-hips",
+      "action": "Strengthen your outer hips",
+      "outcome": "your front knee will track over your toes.",
+      "why": "When the outer glutes are weak, the front knee caves in toward the big toe.",
+      "exercises": [
+        {
+          "id": "clamshells",
+          "name": "Clamshells",
+          "dose": "12 a side"
+        },
+        {
+          "id": "lateral_step_out",
+          "name": "Lateral step-outs",
+          "dose": "10 a side"
+        }
+      ],
+      "cue": "Press your front knee out toward your little toe."
+    },
+    {
+      "id": "back-leg",
+      "action": "Lengthen your inner thighs and quads",
+      "outcome": "your back leg will straighten.",
+      "why": "Tight groin and quad muscles pull the back knee into a bend.",
+      "exercises": [
+        {
+          "id": "adductor_stretch",
+          "name": "Side-lunge groin stretch",
+          "dose": "20s a side"
+        },
+        {
+          "id": "standing_quad_stretch",
+          "name": "Standing quad stretch",
+          "dose": "20s a side"
+        }
+      ],
+      "cue": "Press the outer edge of your back foot down and straighten the leg."
+    },
+    {
+      "id": "core",
+      "action": "Build core strength",
+      "outcome": "your torso will stay stacked between your feet.",
+      "why": "When the trunk gives way under load, it leans toward the front leg and one shoulder drops.",
+      "exercises": [
+        {
+          "id": "core_stability_work",
+          "name": "Dead bugs",
+          "dose": "8 a side"
+        },
+        {
+          "id": "glute_bridge",
+          "name": "Glute bridges",
+          "dose": "12 reps"
+        }
+      ],
+      "cue": "Stack your shoulders over your hips."
+    },
+    {
+      "id": "arms",
+      "action": "Build shoulder strength",
+      "outcome": "your arms will stay level with your shoulders.",
+      "why": "Drooping arms are shoulder endurance running out, not a flexibility problem.",
+      "exercises": [
+        {
+          "id": "isometric_raise_hold",
+          "name": "Side raise hold",
+          "dose": "15s × 2"
+        },
+        {
+          "id": "side_lying_external_rotation",
+          "name": "Side-lying rotations",
+          "dose": "12 a side"
+        }
+      ],
+      "cue": "Reach out through your fingertips, shoulders soft."
+    }
+  ],
+  "cues": "<b>And two cues:</b> point your front foot straight ahead, and turn your head to look out over your front hand.",
+  "faq": [
+    {
+      "q": "How deep should my front knee bend in Warrior II?",
+      "a": "About 90°, with your front thigh close to parallel to the floor and your knee stacked over your ankle. If you can’t get there, lengthen your stance."
+    },
+    {
+      "q": "Should my front knee go past my toes?",
+      "a": "No. Keep it over your ankle and pointing toward your second and third toes. If it drifts past your toes, step your feet wider apart."
+    },
+    {
+      "q": "Why do my arms get tired in Warrior II?",
+      "a": "Holding your arms at shoulder height is endurance work for the shoulders. Keep reaching through your fingertips and let your shoulders stay relaxed; it gets easier with practice."
+    },
+    {
+      "q": "Where should I look in Warrior II?",
+      "a": "Turn your head to look out over your front middle finger, keeping your neck long."
+    },
+    {
+      "q": "How can I check my Warrior II form at home?",
+      "a": "Film yourself from the side and the front. Or use Posewise, an iPhone app that measures your Warrior II with the camera, speaks corrections as you hold it, and builds a six-minute daily plan for what it finds."
+    }
+  ],
+  "llms_summary": "the five things that usually hold back Warrior II (leg strength for a 90° front knee, outer-hip strength for knee tracking, tight groin and quads bending the back leg, core strength for an upright torso, shoulder endurance for level arms), with the alignment rubric and a daily exercise for each."
+}

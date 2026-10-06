@@ -1,0 +1,106 @@
+{
+  "slug": "tree",
+  "name": "Tree Pose",
+  "about": "Tree Pose (Vrksasana)",
+  "published": "2026-10-06",
+  "hero": "/assets/art_tree.webp",
+  "hero_alt": "Tree Pose, seen from the front",
+  "meta_description": "Standing knee bending, hips uneven, torso leaning, head tilting to balance? Three things usually hold back Tree Pose, and a daily exercise that fixes each one.",
+  "og_description": "Three things usually hold back Tree Pose, and a daily exercise that fixes each one.",
+  "lede": "Standing leg strong, hips level, torso tall and centered, head steady. Here’s the rubric Posewise measures it against, and what to train when you miss.",
+  "rubric_intro": "Posewise checks four things from the front. Here’s what good looks like.",
+  "rubric": [
+    {
+      "fix": "standing-leg",
+      "name": "Standing leg",
+      "good": "Straight and strong, knee not locked",
+      "target": "165–185°",
+      "small": "hip · knee · ankle"
+    },
+    {
+      "fix": "outer-hips",
+      "name": "Hips",
+      "good": "Level, neither side hiking or dropping",
+      "target": "0–7°",
+      "small": "tilt"
+    },
+    {
+      "fix": "outer-hips",
+      "name": "Torso",
+      "good": "Tall and centered over the standing foot",
+      "target": "0–12°",
+      "small": "lean from vertical"
+    },
+    {
+      "fix": "cues",
+      "name": "Head",
+      "good": "Level, gaze on one still point",
+      "target": "0–9°",
+      "small": "tilt"
+    }
+  ],
+  "fixes": [
+    {
+      "id": "outer-hips",
+      "action": "Strengthen your outer hips",
+      "outcome": "your hips will stay level.",
+      "why": "The standing-leg glutes hold the pelvis level on one leg. When they’re weak, the hips tip and the torso leans to compensate.",
+      "exercises": [
+        {
+          "id": "clamshells",
+          "name": "Clamshells",
+          "dose": "12 a side"
+        },
+        {
+          "id": "lateral_step_out",
+          "name": "Lateral step-outs",
+          "dose": "10 a side"
+        }
+      ],
+      "cue": "Level your hips and stand tall over your foot."
+    },
+    {
+      "id": "standing-leg",
+      "action": "Build quad strength",
+      "outcome": "your standing leg will stay straight and strong.",
+      "why": "A standing knee that softens as you hold usually points to single-leg strength running out.",
+      "exercises": [
+        {
+          "id": "quad_sets",
+          "name": "Quad sets",
+          "dose": "12 a side"
+        },
+        {
+          "id": "step_down",
+          "name": "Step-downs",
+          "dose": "8 a side"
+        }
+      ],
+      "cue": "Press down through your standing foot."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I put my foot on my knee in Tree Pose?",
+      "a": "No. Place it above or below the knee, on your inner thigh or calf, so there’s no sideways pressure on the joint."
+    },
+    {
+      "q": "Why do I lose my balance in Tree Pose?",
+      "a": "Usually a wandering gaze or a weak standing hip. Fix your eyes on one still point and press your foot and inner leg into each other."
+    },
+    {
+      "q": "Why does my foot slide down in Tree Pose?",
+      "a": "Press your foot and leg into each other with equal force, or start with your foot on your calf or your toes on the floor."
+    },
+    {
+      "q": "Should my hips be level in Tree Pose?",
+      "a": "Yes. The lifted-leg hip tends to hike up, so draw it down until both hip points face forward and sit level."
+    },
+    {
+      "q": "How can I check my Tree Pose form at home?",
+      "a": "Film yourself from the front. Or use Posewise, an iPhone app that measures your Tree Pose with the camera, speaks corrections as you hold it, and builds a six-minute daily plan for what it finds."
+    }
+  ],
+  "llms_summary": "the three things that usually hold back Tree Pose (outer-hip strength for level hips and an upright torso, quad strength for a straight standing leg, core strength for a steady head and balance), with the alignment rubric and a daily exercise for each.",
+  "cues": "<b>And one cue:</b> fix your gaze on one still point ahead and keep your head level. A steady gaze steadies everything below it."
+}

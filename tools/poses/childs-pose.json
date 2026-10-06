@@ -1,0 +1,106 @@
+{
+  "slug": "childs-pose",
+  "name": "Child’s Pose",
+  "about": "Child’s Pose (Balasana)",
+  "published": "2026-10-06",
+  "hero": "/assets/art_childs_pose.webp",
+  "hero_alt": "Child’s Pose, seen from the side",
+  "meta_description": "Hips hovering above your heels, neck holding your head up, arms working to reach? Two things usually keep Child’s Pose from feeling restful, and a gentle fix for each.",
+  "og_description": "Two things usually keep Child’s Pose from feeling restful, and a gentle daily exercise for each.",
+  "lede": "Hips sinking toward your heels, arms long, forehead down and neck soft. Here’s the rubric Posewise measures it against, and what to train when you miss.",
+  "rubric_intro": "Posewise checks four things from the side. Here’s what good looks like.",
+  "rubric": [
+    {
+      "fix": "cues",
+      "name": "Hips",
+      "good": "Settling back toward your heels",
+      "target": "Settling",
+      "small": "hip vs heel"
+    },
+    {
+      "fix": "cues",
+      "name": "Arms",
+      "good": "Long and relaxed in front of you",
+      "target": "150–185°",
+      "small": "shoulder · elbow · wrist"
+    },
+    {
+      "fix": "lats",
+      "name": "Hands",
+      "good": "Fingers long on the mat",
+      "target": "Extended",
+      "small": "wrist to fingertips"
+    },
+    {
+      "fix": "neck",
+      "name": "Neck",
+      "good": "Forehead down, neck soft",
+      "target": "Resting",
+      "small": "shoulder · ear"
+    }
+  ],
+  "fixes": [
+    {
+      "id": "lats",
+      "action": "Lengthen your shoulders and lats",
+      "outcome": "your arms will rest long without strain.",
+      "why": "Tight lats and shoulders can make a long forward reach feel like work. In a resting pose, it shouldn’t.",
+      "exercises": [
+        {
+          "id": "doorway_lat_stretch",
+          "name": "Doorway lat stretch",
+          "dose": "20s a side"
+        },
+        {
+          "id": "full_body_reach",
+          "name": "Full-body reach",
+          "dose": "30s"
+        }
+      ],
+      "cue": "Walk your fingertips forward, then let your arms go heavy."
+    },
+    {
+      "id": "neck",
+      "action": "Release your neck",
+      "outcome": "your head will rest heavy on the mat.",
+      "why": "The neck is usually the last thing to let go. Slow breathing helps it soften.",
+      "exercises": [
+        {
+          "id": "neck_release",
+          "name": "Seated neck release",
+          "dose": "20s a side"
+        },
+        {
+          "id": "diaphragmatic_breathing",
+          "name": "Belly breathing",
+          "dose": "60s"
+        }
+      ],
+      "cue": "Let your forehead rest down and your neck go completely soft."
+    }
+  ],
+  "cues": "<b>And two cues:</b> let your hips settle back toward your heels (widen your knees or slide a cushion under your hips if they don’t reach), and let your arms rest long and relaxed in front of you.",
+  "faq": [
+    {
+      "q": "Should my hips touch my heels in Child’s Pose?",
+      "a": "Not necessarily. Let them sink as far as is comfortable; widen your knees or put a folded blanket between your hips and heels."
+    },
+    {
+      "q": "What if my forehead doesn’t reach the floor in Child’s Pose?",
+      "a": "Rest it on a block, a cushion or your stacked fists. The point is to let your head be supported."
+    },
+    {
+      "q": "Should my knees be together or apart in Child’s Pose?",
+      "a": "Either. Knees wide gives your belly and hips room to sink; knees together rounds your back more. Pick whichever feels more restful."
+    },
+    {
+      "q": "Where should my arms go in Child’s Pose?",
+      "a": "Forward for a gentle shoulder stretch, or back alongside your body, palms up, to let your shoulders rest. Both are correct."
+    },
+    {
+      "q": "How can I check my Child’s Pose form at home?",
+      "a": "Film yourself from the side. Or use Posewise, an iPhone app that measures your Child’s Pose with the camera, speaks corrections as you hold it, and builds a six-minute daily plan for what it finds."
+    }
+  ],
+  "llms_summary": "the two things that usually keep Child’s Pose from feeling restful (tight lats and shoulders making the forward reach work, and a neck that won’t let go), with the alignment rubric and a gentle daily exercise for each."
+}

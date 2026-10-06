@@ -1,0 +1,158 @@
+{
+  "slug": "goddess",
+  "name": "Goddess Pose",
+  "about": "Goddess Pose (Utkata Konasana)",
+  "published": "2026-10-06",
+  "hero": "/assets/art_goddess_pose.webp",
+  "hero_alt": "Goddess Pose, seen from the front",
+  "meta_description": "Shallow squat, knees caving in, torso leaning, arms straightening? Four things usually hold back Goddess Pose, and a daily exercise that fixes each one.",
+  "og_description": "Four things usually hold back Goddess Pose, and a daily exercise that fixes each one.",
+  "lede": "Wide stance, toes turned out, hips low, knees over toes, torso tall, arms in a goalpost. Here’s the rubric Posewise measures it against, and what to train when you miss.",
+  "rubric_intro": "Posewise checks six things from the front. Here’s what good looks like.",
+  "rubric": [
+    {
+      "fix": "depth",
+      "name": "Squat depth",
+      "good": "Hips sinking toward knee height",
+      "target": "Under 150°",
+      "small": "hip · knee · ankle"
+    },
+    {
+      "fix": "outer-hips",
+      "name": "Knees",
+      "good": "Tracking out over your toes, not caving in",
+      "target": "Over toes",
+      "small": "front view"
+    },
+    {
+      "fix": "core",
+      "name": "Torso",
+      "good": "Tall, stacked over your hips",
+      "target": "0–12°",
+      "small": "lean from vertical"
+    },
+    {
+      "fix": "arms",
+      "name": "Elbows",
+      "good": "Bent to a right angle, like a goalpost",
+      "target": "70–110°",
+      "small": "shoulder · elbow · wrist"
+    },
+    {
+      "fix": "arms",
+      "name": "Shoulders",
+      "good": "Level, both elbows at the same height",
+      "target": "0–9°",
+      "small": "tilt"
+    },
+    {
+      "fix": "cues",
+      "name": "Feet",
+      "good": "Toes turned out about 45°",
+      "target": "Turned out",
+      "small": "front view"
+    }
+  ],
+  "fixes": [
+    {
+      "id": "depth",
+      "action": "Build leg strength and open your inner thighs",
+      "outcome": "you’ll sink deeper into the squat.",
+      "why": "Depth usually stops where leg strength runs out. Tight inner thighs can cap it too.",
+      "exercises": [
+        {
+          "id": "goblet_squat",
+          "name": "Goblet squats",
+          "dose": "12 reps"
+        },
+        {
+          "id": "adductor_stretch",
+          "name": "Side-lunge groin stretch",
+          "dose": "20s a side"
+        }
+      ],
+      "cue": "Sink your hips lower, knees over your toes."
+    },
+    {
+      "id": "outer-hips",
+      "action": "Strengthen your outer hips",
+      "outcome": "your knees will track out over your toes.",
+      "why": "When the outer glutes are weak, the knees cave in toward the big toes.",
+      "exercises": [
+        {
+          "id": "clamshells",
+          "name": "Clamshells",
+          "dose": "12 a side"
+        },
+        {
+          "id": "lateral_step_out",
+          "name": "Lateral step-outs",
+          "dose": "10 a side"
+        }
+      ],
+      "cue": "Press your knees outward, in line with your toes."
+    },
+    {
+      "id": "core",
+      "action": "Build core strength",
+      "outcome": "your torso will stay tall over your hips.",
+      "why": "When the trunk tires, the chest tips forward and the pose turns into an ordinary squat.",
+      "exercises": [
+        {
+          "id": "core_bracing_drill",
+          "name": "Core bracing",
+          "dose": "10 reps"
+        },
+        {
+          "id": "pelvic_tilt_drill",
+          "name": "Pelvic tilts",
+          "dose": "10 slow reps"
+        }
+      ],
+      "cue": "Lift your chest and stack your torso over your hips."
+    },
+    {
+      "id": "arms",
+      "action": "Free up your shoulders",
+      "outcome": "your arms will settle into the cactus shape.",
+      "why": "Straightening or uneven arms usually point to shoulders running out of rotation, so one side gives first.",
+      "exercises": [
+        {
+          "id": "doorway_lat_stretch",
+          "name": "Doorway lat stretch",
+          "dose": "20s a side"
+        },
+        {
+          "id": "floor_angel",
+          "name": "Floor angels",
+          "dose": "8 slow reps"
+        }
+      ],
+      "cue": "Elbows at shoulder height, bent to a right angle."
+    }
+  ],
+  "cues": "<b>And one cue:</b> turn your toes out about 45°, so your knees can point the same way.",
+  "faq": [
+    {
+      "q": "How low should I squat in Goddess Pose?",
+      "a": "Aim for thighs close to parallel with the floor, but only as low as your knees can stay over your toes. A higher squat with good knees beats a deep one with knees caving in."
+    },
+    {
+      "q": "How far should my toes turn out in Goddess Pose?",
+      "a": "About 45°, with your heels in and toes out. Your knees should point the same direction as your toes."
+    },
+    {
+      "q": "Why do my knees cave in during Goddess Pose?",
+      "a": "Usually weak outer hips, or toes turned out further than your hips allow. Press your knees out toward your little toes."
+    },
+    {
+      "q": "What do I do with my arms in Goddess Pose?",
+      "a": "The common version is cactus arms: elbows at shoulder height, bent to about 90°, palms forward. Hands at your heart works too."
+    },
+    {
+      "q": "How can I check my Goddess Pose form at home?",
+      "a": "Film yourself from the front. Or use Posewise, an iPhone app that measures your Goddess Pose with the camera, speaks corrections as you hold it, and builds a six-minute daily plan for what it finds."
+    }
+  ],
+  "llms_summary": "the four things that usually hold back Goddess Pose (leg strength for squat depth, outer-hip strength for knee tracking, core strength for an upright torso, shoulder mobility for even cactus arms), with the alignment rubric and a daily exercise for each."
+}

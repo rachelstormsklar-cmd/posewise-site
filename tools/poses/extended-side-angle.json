@@ -1,0 +1,158 @@
+{
+  "slug": "extended-side-angle",
+  "name": "Extended Side Angle",
+  "about": "Extended Side Angle Pose (Utthita Parsvakonasana)",
+  "published": "2026-10-06",
+  "hero": "/assets/art_extended_side_angle.webp",
+  "hero_alt": "Extended Side Angle, seen from the side",
+  "meta_description": "Front knee short of 90°, back knee bending, back heel lifting, top arm drifting? Four things usually hold back Extended Side Angle, and a daily exercise for each.",
+  "og_description": "Four things usually hold back Extended Side Angle, and a daily exercise that fixes each one.",
+  "lede": "Front knee over the ankle at a right angle, one long line from your back heel to your top fingertips. Here’s the rubric Posewise measures it against, and what to train when you miss.",
+  "rubric_intro": "Posewise checks six things from the side. Here’s what good looks like.",
+  "rubric": [
+    {
+      "fix": "legs",
+      "name": "Front knee",
+      "good": "Bent to a right angle, over the ankle",
+      "target": "80–100°",
+      "small": "hip · knee · ankle"
+    },
+    {
+      "fix": "back-leg",
+      "name": "Back leg",
+      "good": "Straight and strong",
+      "target": "165–185°",
+      "small": "hip · knee · ankle"
+    },
+    {
+      "fix": "heel",
+      "name": "Back heel",
+      "good": "Planted, outer edge pressing down",
+      "target": "Down",
+      "small": "heel vs toes"
+    },
+    {
+      "fix": "cues",
+      "name": "Torso",
+      "good": "Long over your front thigh, not sinking onto it",
+      "target": "Long",
+      "small": "shoulder · hip · knee"
+    },
+    {
+      "fix": "top-arm",
+      "name": "Top arm",
+      "good": "Reaching past your ear, in line with your side body",
+      "target": "In line",
+      "small": "hip · shoulder · elbow"
+    },
+    {
+      "fix": "cues",
+      "name": "Chest",
+      "good": "Turned open, not facing the floor",
+      "target": "Open",
+      "small": "shoulder vs hip width"
+    }
+  ],
+  "fixes": [
+    {
+      "id": "legs",
+      "action": "Build quad and glute strength",
+      "outcome": "your front knee will reach a 90° bend.",
+      "why": "The shape is there, the depth isn’t. That usually points to leg strength, not technique.",
+      "exercises": [
+        {
+          "id": "split_squat",
+          "name": "Split squats",
+          "dose": "8 a side"
+        },
+        {
+          "id": "goblet_squat",
+          "name": "Goblet squats",
+          "dose": "12 reps"
+        }
+      ],
+      "cue": "Bend your front knee to 90°, knee over ankle."
+    },
+    {
+      "id": "back-leg",
+      "action": "Lengthen your inner thighs and quads",
+      "outcome": "your back leg will straighten.",
+      "why": "Tight groin and quad muscles pull the back knee into a bend.",
+      "exercises": [
+        {
+          "id": "adductor_stretch",
+          "name": "Side-lunge groin stretch",
+          "dose": "20s a side"
+        },
+        {
+          "id": "standing_quad_stretch",
+          "name": "Standing quad stretch",
+          "dose": "20s a side"
+        }
+      ],
+      "cue": "Press through your back foot and straighten the leg."
+    },
+    {
+      "id": "heel",
+      "action": "Lengthen your calves",
+      "outcome": "your back heel will stay planted.",
+      "why": "Tight calves cap how far the back ankle bends, so the heel peels up and the long line breaks.",
+      "exercises": [
+        {
+          "id": "calf_stretch",
+          "name": "Wall calf stretch",
+          "dose": "20s a side"
+        },
+        {
+          "id": "ankle_dorsiflexion_drill",
+          "name": "Ankle mobility drill",
+          "dose": "10 a side"
+        }
+      ],
+      "cue": "Press the outer edge of your back foot down."
+    },
+    {
+      "id": "top-arm",
+      "action": "Free up your shoulders",
+      "outcome": "your top arm will extend in one line past your ear.",
+      "why": "When shoulder range runs out, the top arm drifts forward or stops short instead of reaching overhead.",
+      "exercises": [
+        {
+          "id": "wall_slides",
+          "name": "Wall slides",
+          "dose": "10 reps"
+        },
+        {
+          "id": "doorway_lat_stretch",
+          "name": "Doorway lat stretch",
+          "dose": "20s a side"
+        }
+      ],
+      "cue": "Reach your top arm long past your ear."
+    }
+  ],
+  "cues": "<b>And two cues:</b> keep your side body long over your front thigh instead of sinking onto it, and roll your top shoulder back to open your chest.",
+  "faq": [
+    {
+      "q": "Should my hand touch the floor in Extended Side Angle?",
+      "a": "Only if your torso stays long. Rest your forearm on your front thigh or your hand on a block instead of collapsing to reach the floor."
+    },
+    {
+      "q": "Where should my front knee be in Extended Side Angle?",
+      "a": "Stacked over your ankle at about 90°, pointing toward your middle toes. If it drifts past your toes, widen your stance."
+    },
+    {
+      "q": "Why does my back foot lift in Extended Side Angle?",
+      "a": "Usually tight calves or a stance that’s too long. Turn your back toes in slightly and press the outer edge of the foot down."
+    },
+    {
+      "q": "Where should I look in Extended Side Angle?",
+      "a": "Up toward your top hand if your neck is comfortable, otherwise straight ahead or down at the floor."
+    },
+    {
+      "q": "How can I check my Extended Side Angle form at home?",
+      "a": "Film yourself from the side. Or use Posewise, an iPhone app that measures your Extended Side Angle with the camera, speaks corrections as you hold it, and builds a six-minute daily plan for what it finds."
+    }
+  ],
+  "llms_summary": "the four things that usually hold back Extended Side Angle (leg strength for a 90° front knee, tight groin and quads bending the back leg, tight calves lifting the back heel, stiff shoulders breaking the top-arm line), with the alignment rubric and a daily exercise for each."
+}

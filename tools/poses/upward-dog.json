@@ -1,0 +1,158 @@
+{
+  "slug": "upward-dog",
+  "name": "Upward Dog",
+  "about": "Upward-Facing Dog (Urdhva Mukha Svanasana)",
+  "published": "2026-10-06",
+  "hero": "/assets/art_up_dog.webp",
+  "hero_alt": "Upward-Facing Dog, seen from the side",
+  "meta_description": "Bent elbows, sagging hips, thighs on the mat, shoulders hunched, low back pinching? Four things usually hold back Upward Dog, and a daily exercise for each.",
+  "og_description": "Four things usually hold back Upward Dog, and a daily exercise that fixes each one.",
+  "lede": "Arms straight, shoulders over wrists, chest lifted, thighs off the mat. Here’s the rubric Posewise measures it against, and what to train when you miss.",
+  "rubric_intro": "Posewise checks six things from the side. Here’s what good looks like.",
+  "rubric": [
+    {
+      "fix": "pressing",
+      "name": "Arms",
+      "good": "Straight, without locking",
+      "target": "Straight",
+      "small": "shoulder · elbow · wrist"
+    },
+    {
+      "fix": "upper-back",
+      "name": "Hips",
+      "good": "Lifted, the bend spread up your back",
+      "target": "125–180°",
+      "small": "shoulder · hip · knee"
+    },
+    {
+      "fix": "legs",
+      "name": "Legs",
+      "good": "Straight and active, thighs off the mat",
+      "target": "Straight",
+      "small": "hip · knee · ankle"
+    },
+    {
+      "fix": "shoulders",
+      "name": "Shoulders",
+      "good": "Stacked over your wrists",
+      "target": "Stacked",
+      "small": "shoulder over wrist"
+    },
+    {
+      "fix": "cues",
+      "name": "Neck",
+      "good": "Long, chest leading, not chin",
+      "target": "145–185°",
+      "small": "hip · shoulder · ear"
+    },
+    {
+      "fix": "cues",
+      "name": "Wrists",
+      "good": "Weight across the whole palm",
+      "target": "Even",
+      "small": "wrist bend"
+    }
+  ],
+  "fixes": [
+    {
+      "id": "pressing",
+      "action": "Build pressing strength",
+      "outcome": "your arms will straighten and hold your chest up.",
+      "why": "When the arms can’t yet carry you, the elbows bend and the chest sinks back toward Cobra.",
+      "exercises": [
+        {
+          "id": "pushup_hold",
+          "name": "Push-up hold",
+          "dose": "30s"
+        },
+        {
+          "id": "cobra_prone_lift",
+          "name": "Prone chest lifts",
+          "dose": "10 reps"
+        }
+      ],
+      "cue": "Press the floor away to straighten your arms."
+    },
+    {
+      "id": "upper-back",
+      "action": "Open your upper back",
+      "outcome": "the bend will spread up your spine instead of pinching your low back.",
+      "why": "A stiff upper back, often with tight hip flexors, lets the hips sink and the bend collect in the low back.",
+      "exercises": [
+        {
+          "id": "thoracic_extension_mobility",
+          "name": "Upper-back extensions",
+          "dose": "8–10 reps"
+        },
+        {
+          "id": "hip_flexor_stretch",
+          "name": "Low lunge stretch",
+          "dose": "30s a side"
+        }
+      ],
+      "cue": "Lift through your chest, not your low back."
+    },
+    {
+      "id": "legs",
+      "action": "Build glute and leg strength",
+      "outcome": "your thighs will lift off the mat.",
+      "why": "When the legs go slack, the thighs drop and the low back takes the load.",
+      "exercises": [
+        {
+          "id": "prone_leg_lift",
+          "name": "Prone leg lifts",
+          "dose": "12 a side"
+        },
+        {
+          "id": "quad_sets",
+          "name": "Quad sets",
+          "dose": "12 a side"
+        }
+      ],
+      "cue": "Press the tops of your feet down and lift your thighs."
+    },
+    {
+      "id": "shoulders",
+      "action": "Free up your shoulders",
+      "outcome": "your shoulders will stack over your wrists.",
+      "why": "Tight lats or a tired core let the shoulders drift forward of the hands and hunch toward the ears.",
+      "exercises": [
+        {
+          "id": "lat_stretch",
+          "name": "Lat stretch",
+          "dose": "20s a side"
+        },
+        {
+          "id": "core_control_transition",
+          "name": "Plank to up dog",
+          "dose": "8 slow reps"
+        }
+      ],
+      "cue": "Shift your shoulders back over your wrists."
+    }
+  ],
+  "cues": "<b>And two cues:</b> lead with your chest, not your chin, so the back of your neck stays long, and spread your fingers to press through your whole palm.",
+  "faq": [
+    {
+      "q": "What’s the difference between Upward Dog and Cobra?",
+      "a": "In Upward Dog your arms are straight and your hips and thighs lift off the mat, so only your hands and the tops of your feet touch. In Cobra your hips stay down and your elbows stay bent."
+    },
+    {
+      "q": "Should my thighs touch the floor in Upward Dog?",
+      "a": "No. Press the tops of your feet down and lift your thighs. If you can’t yet, do Cobra instead."
+    },
+    {
+      "q": "Why does my lower back hurt in Upward Dog?",
+      "a": "Usually the hips sag and the bend collects in the low back. Firm your legs, draw your shoulders back over your wrists and lift through your chest, or switch to Cobra."
+    },
+    {
+      "q": "Where should I look in Upward Dog?",
+      "a": "Straight ahead or slightly up, with your neck long. Avoid dropping your head back."
+    },
+    {
+      "q": "How can I check my Upward Dog form at home?",
+      "a": "Film yourself from the side. Or use Posewise, an iPhone app that measures your Upward Dog with the camera, speaks corrections as you hold it, and builds a six-minute daily plan for what it finds."
+    }
+  ],
+  "llms_summary": "the four things that usually hold back Upward Dog (pressing strength for straight arms, upper-back mobility so the bend doesn’t pinch the low back, glute and leg strength to lift the thighs, shoulder mobility to stack the shoulders over the wrists), with the alignment rubric and a daily exercise for each."
+}

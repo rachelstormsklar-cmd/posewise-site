@@ -1,0 +1,125 @@
+{
+  "slug": "bridge",
+  "name": "Bridge Pose",
+  "about": "Bridge Pose (Setu Bandha Sarvangasana)",
+  "published": "2026-10-06",
+  "hero": "/assets/art_bridge.webp",
+  "hero_alt": "Bridge Pose, seen from the side",
+  "meta_description": "Hips not lifting, low back doing the work, chin pressed into your chest? Three things usually hold back Bridge Pose, and a daily exercise that fixes each one.",
+  "og_description": "Three things usually hold back Bridge Pose, and a daily exercise that fixes each one.",
+  "lede": "Hips lifted by your glutes, knees over your ankles, neck resting neutral. Here’s the rubric Posewise measures it against, and what to train when you miss.",
+  "rubric_intro": "Posewise checks four things from the side. Here’s what good looks like.",
+  "rubric": [
+    {
+      "fix": "glutes",
+      "name": "Hips",
+      "good": "Lifted high, thighs toward parallel",
+      "target": "Lifted",
+      "small": "hip vs shoulder–knee line"
+    },
+    {
+      "fix": "cues",
+      "name": "Knees",
+      "good": "Stacked over your ankles",
+      "target": "Over ankle",
+      "small": "knee vs ankle"
+    },
+    {
+      "fix": "core",
+      "name": "Low back",
+      "good": "Lift from your glutes, not an arch in your low back",
+      "target": "Controlled",
+      "small": "shoulder · hip · knee"
+    },
+    {
+      "fix": "neck",
+      "name": "Neck",
+      "good": "Neutral, chin off your chest",
+      "target": "Neutral",
+      "small": "hip · shoulder · ear"
+    }
+  ],
+  "fixes": [
+    {
+      "id": "glutes",
+      "action": "Build glute strength",
+      "outcome": "your hips will lift higher.",
+      "why": "The shape is there, the height isn’t. That points to glute and hamstring strength, not technique.",
+      "exercises": [
+        {
+          "id": "glute_bridge",
+          "name": "Glute bridges",
+          "dose": "12 reps"
+        },
+        {
+          "id": "prone_leg_lift",
+          "name": "Prone leg lifts",
+          "dose": "12 a side"
+        }
+      ],
+      "cue": "Press through your feet and lift your hips a little higher."
+    },
+    {
+      "id": "core",
+      "action": "Build core strength",
+      "outcome": "your lift will come from your glutes instead of your low back.",
+      "why": "When the glutes don’t do the lifting, the low back usually arches to make up the height.",
+      "exercises": [
+        {
+          "id": "core_bracing_drill",
+          "name": "Core bracing",
+          "dose": "10 reps"
+        },
+        {
+          "id": "pelvic_tilt_drill",
+          "name": "Pelvic tilts",
+          "dose": "10 slow reps"
+        }
+      ],
+      "cue": "Squeeze your glutes and press evenly through your feet."
+    },
+    {
+      "id": "neck",
+      "action": "Free up your neck",
+      "outcome": "it will stay long and safe under load.",
+      "why": "Your neck bears weight in Bridge. A chin jammed into the chest, or a head pressing back, puts that load in the wrong place.",
+      "exercises": [
+        {
+          "id": "chin_tuck",
+          "name": "Chin tucks",
+          "dose": "10 slow reps"
+        },
+        {
+          "id": "neck_release",
+          "name": "Seated neck release",
+          "dose": "20s a side"
+        }
+      ],
+      "cue": "Let your head rest heavy and keep your chin off your chest."
+    }
+  ],
+  "cues": "<b>And one cue:</b> walk your feet close enough to your hips that your knees stack over your ankles.",
+  "faq": [
+    {
+      "q": "How high should my hips go in Bridge Pose?",
+      "a": "Aim for your thighs to be about parallel to the floor, but only as high as your glutes can lift you without a pinch in your low back."
+    },
+    {
+      "q": "Where should my feet be in Bridge Pose?",
+      "a": "Hip-width apart and parallel, close enough that your fingertips can graze your heels, so your shins are close to vertical."
+    },
+    {
+      "q": "Can I turn my head in Bridge Pose?",
+      "a": "No. Your neck is bearing weight, so keep your head still and your gaze straight up. Turn it only after you lower down."
+    },
+    {
+      "q": "Why do my knees splay out in Bridge Pose?",
+      "a": "Usually from clenching the glutes too hard. Firm them just enough to lift, and keep your knees pointing straight ahead over your feet."
+    },
+    {
+      "q": "How can I check my Bridge Pose form at home?",
+      "a": "Film yourself from the side. Or use Posewise, an iPhone app that measures your Bridge Pose with the camera, speaks corrections as you hold it, and builds a six-minute daily plan for what it finds."
+    }
+  ],
+  "llms_summary": "the three things that usually hold back Bridge Pose (glute and hamstring strength for hip height, core control so the low back doesn’t do the lifting, a neutral neck under load), with the alignment rubric and a daily exercise for each."
+}

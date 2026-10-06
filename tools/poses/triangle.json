@@ -1,0 +1,132 @@
+{
+  "slug": "triangle",
+  "name": "Triangle Pose",
+  "about": "Triangle Pose (Trikonasana)",
+  "published": "2026-10-06",
+  "hero": "/assets/art_triangle.webp",
+  "hero_alt": "Triangle Pose, seen from the side",
+  "meta_description": "Front knee bending, torso collapsing, top arm drifting, chest facing the floor? Three things usually hold back Triangle Pose, and a daily exercise for each.",
+  "og_description": "Three things usually hold back Triangle Pose, and a daily exercise that fixes each one.",
+  "lede": "Both legs straight, torso long over the front leg, top arm reaching straight up, chest open. Here’s the rubric Posewise measures it against, and what to train when you miss.",
+  "rubric_intro": "Posewise checks five things from the side. Here’s what good looks like.",
+  "rubric": [
+    {
+      "fix": "hamstrings",
+      "name": "Legs",
+      "good": "Both straight, knees not locked",
+      "target": "165–185°",
+      "small": "hip · knee · ankle"
+    },
+    {
+      "fix": "hamstrings",
+      "name": "Torso",
+      "good": "Long over the front leg, hinged from the hip",
+      "target": "Long",
+      "small": "shoulder · hip · knee"
+    },
+    {
+      "fix": "top-arm",
+      "name": "Top arm",
+      "good": "Straight up, stacked over your shoulder",
+      "target": "0–25°",
+      "small": "lean from vertical"
+    },
+    {
+      "fix": "chest",
+      "name": "Chest",
+      "good": "Turned open, not facing the floor",
+      "target": "Open",
+      "small": "shoulder vs hip width"
+    },
+    {
+      "fix": "cues",
+      "name": "Top hand",
+      "good": "Reaching through the fingertips",
+      "target": "Reaching",
+      "small": "wrist to fingertips"
+    }
+  ],
+  "fixes": [
+    {
+      "id": "hamstrings",
+      "action": "Lengthen your hamstrings",
+      "outcome": "both legs will stay straight as you hinge.",
+      "why": "Tight hamstrings stop the hinge at the hip, so the front knee bends or the torso folds down instead. Until they ease, bring your bottom hand higher up your shin.",
+      "exercises": [
+        {
+          "id": "reclined_hamstring_stretch",
+          "name": "Reclined hamstring stretch",
+          "dose": "45s a side"
+        },
+        {
+          "id": "forward_fold_hamstring_release",
+          "name": "Bent-knee forward fold",
+          "dose": "45s"
+        }
+      ],
+      "cue": "Straighten your front leg and hinge from your hip."
+    },
+    {
+      "id": "top-arm",
+      "action": "Free up your shoulders",
+      "outcome": "your top arm will reach straight up.",
+      "why": "When shoulder range runs out, the top arm drifts off vertical instead of stacking over the shoulder.",
+      "exercises": [
+        {
+          "id": "wall_slides",
+          "name": "Wall slides",
+          "dose": "10 reps"
+        },
+        {
+          "id": "doorway_lat_stretch",
+          "name": "Doorway lat stretch",
+          "dose": "20s a side"
+        }
+      ],
+      "cue": "Reach your top arm straight up, stacked over your shoulder."
+    },
+    {
+      "id": "chest",
+      "action": "Free up your upper back",
+      "outcome": "your chest will open toward the ceiling.",
+      "why": "A chest that stays facing the floor usually points to a stiff upper back that won’t rotate.",
+      "exercises": [
+        {
+          "id": "thread_the_needle",
+          "name": "Thread the needle",
+          "dose": "30s a side"
+        },
+        {
+          "id": "seated_twist_mobility",
+          "name": "Seated spinal twist",
+          "dose": "30s a side"
+        }
+      ],
+      "cue": "Roll your top shoulder back and open your chest."
+    }
+  ],
+  "cues": "<b>And one cue:</b> reach all the way out through your top fingertips.",
+  "faq": [
+    {
+      "q": "Should my hand touch the floor in Triangle Pose?",
+      "a": "No. Rest it on your shin, ankle or a block, wherever your torso stays long and your chest stays open."
+    },
+    {
+      "q": "Should my front knee be bent in Triangle Pose?",
+      "a": "No, both legs stay straight. Keep a micro-bend in the front knee so you don’t lock it, and shorten your stance if your hamstrings won’t allow it."
+    },
+    {
+      "q": "Why do I fall forward in Triangle Pose?",
+      "a": "Usually reaching too far down. Bring your bottom hand higher, reach your top arm up, and roll your top shoulder back."
+    },
+    {
+      "q": "Where should I look in Triangle Pose?",
+      "a": "Up at your top hand if your neck is comfortable. Otherwise look straight ahead or down at your front foot."
+    },
+    {
+      "q": "How can I check my Triangle Pose form at home?",
+      "a": "Film yourself from the side. Or use Posewise, an iPhone app that measures your Triangle Pose with the camera, speaks corrections as you hold it, and builds a six-minute daily plan for what it finds."
+    }
+  ],
+  "llms_summary": "the three things that usually hold back Triangle Pose (tight hamstrings bending the front knee or collapsing the torso, stiff shoulders pulling the top arm off vertical, a stiff upper back keeping the chest facing down), with the alignment rubric and a daily exercise for each."
+}

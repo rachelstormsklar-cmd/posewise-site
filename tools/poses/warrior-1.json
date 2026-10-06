@@ -1,0 +1,197 @@
+{
+  "slug": "warrior-1",
+  "name": "Warrior I",
+  "about": "Warrior I (Virabhadrasana I)",
+  "published": "2026-10-06",
+  "hero": "/assets/art_warrior_1.webp",
+  "hero_alt": "Warrior I, seen from the side",
+  "meta_description": "Back heel lifting, back knee bending, hips twisting open, torso leaning? Five things usually hold back Warrior I, and a daily exercise that fixes each one.",
+  "og_description": "Five things usually hold back Warrior I, and a daily exercise that fixes each one.",
+  "lede": "Front knee over the ankle at a right angle, back heel down, hips facing forward, arms reaching straight up. Here’s the rubric Posewise measures it against, and what to train when you miss.",
+  "rubric_intro": "Posewise checks nine things, from the side and the front. Here’s what good looks like.",
+  "rubric": [
+    {
+      "fix": "legs",
+      "name": "Front knee",
+      "good": "Bent to a right angle, over the ankle",
+      "target": "80–100°",
+      "small": "hip · knee · ankle"
+    },
+    {
+      "fix": "calves",
+      "name": "Back leg",
+      "good": "Straight and strong",
+      "target": "165–185°",
+      "small": "hip · knee · ankle"
+    },
+    {
+      "fix": "calves",
+      "name": "Back heel",
+      "good": "Pressed into the mat",
+      "target": "Down",
+      "small": "heel vs toe"
+    },
+    {
+      "fix": "hip-flexors",
+      "name": "Torso",
+      "good": "Tall, stacked over your hips",
+      "target": "0–12°",
+      "small": "lean from vertical"
+    },
+    {
+      "fix": "hip-flexors",
+      "name": "Hips",
+      "good": "Facing forward, with your chest",
+      "target": "Square",
+      "small": "front view"
+    },
+    {
+      "fix": "outer-hips",
+      "name": "Knee tracking",
+      "good": "Over your front foot, not caving in",
+      "target": "In line",
+      "small": "front view"
+    },
+    {
+      "fix": "shoulders",
+      "name": "Arms",
+      "good": "Straight up, in line with your ears",
+      "target": "155–185°",
+      "small": "hip · shoulder · elbow"
+    },
+    {
+      "fix": "shoulders",
+      "name": "Shoulders",
+      "good": "Level, both arms at the same height",
+      "target": "0–9°",
+      "small": "tilt"
+    },
+    {
+      "fix": "shoulders",
+      "name": "Hands",
+      "good": "Reaching through the fingertips",
+      "target": "Long",
+      "small": "wrist to fingertip"
+    }
+  ],
+  "fixes": [
+    {
+      "id": "legs",
+      "action": "Build quad and glute strength",
+      "outcome": "your front knee will reach a 90° bend.",
+      "why": "The shape is there, the depth isn’t. That usually points to leg strength, not technique.",
+      "exercises": [
+        {
+          "id": "split_squat",
+          "name": "Split squats",
+          "dose": "8 a side"
+        },
+        {
+          "id": "goblet_squat",
+          "name": "Goblet squats",
+          "dose": "12 reps"
+        }
+      ],
+      "cue": "Bend your front knee toward 90°, right over your ankle."
+    },
+    {
+      "id": "calves",
+      "action": "Lengthen your calves",
+      "outcome": "your back heel will stay down and your back leg will straighten.",
+      "why": "With the back heel grounded, tight calves usually lift the heel or pull the back knee into a bend. Shorten your stance until they ease.",
+      "exercises": [
+        {
+          "id": "calf_stretch",
+          "name": "Wall calf stretch",
+          "dose": "20s a side"
+        },
+        {
+          "id": "ankle_dorsiflexion_drill",
+          "name": "Ankle mobility drill",
+          "dose": "10 a side"
+        }
+      ],
+      "cue": "Press your back heel down into the mat."
+    },
+    {
+      "id": "hip-flexors",
+      "action": "Lengthen your hip flexors",
+      "outcome": "your torso will stay tall and your hips will turn toward the front.",
+      "why": "Tight hip flexors on the back leg tip the pelvis forward and pull that hip open, so the chest leans and the hips twist.",
+      "exercises": [
+        {
+          "id": "hip_flexor_stretch",
+          "name": "Low lunge stretch",
+          "dose": "30s a side"
+        },
+        {
+          "id": "figure_four_stretch",
+          "name": "Figure-four stretch",
+          "dose": "30s a side"
+        }
+      ],
+      "cue": "Draw your back hip forward and lift your chest."
+    },
+    {
+      "id": "outer-hips",
+      "action": "Strengthen your outer hips",
+      "outcome": "your front knee will track over your toes.",
+      "why": "When the outer glutes are weak, the front knee caves in toward the big toe.",
+      "exercises": [
+        {
+          "id": "clamshells",
+          "name": "Clamshells",
+          "dose": "12 a side"
+        },
+        {
+          "id": "lateral_step_out",
+          "name": "Lateral step-outs",
+          "dose": "10 a side"
+        }
+      ],
+      "cue": "Track your front knee out over your middle toe."
+    },
+    {
+      "id": "shoulders",
+      "action": "Free up your shoulders",
+      "outcome": "your arms will reach straight up, in line with your ears.",
+      "why": "When shoulder range runs out overhead, the arms angle forward, one side rides higher, or the shoulders creep toward the ears.",
+      "exercises": [
+        {
+          "id": "wall_slides",
+          "name": "Wall slides",
+          "dose": "10 reps"
+        },
+        {
+          "id": "doorway_lat_stretch",
+          "name": "Doorway lat stretch",
+          "dose": "20s a side"
+        }
+      ],
+      "cue": "Reach your arms up in line with your ears, through your fingertips."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Should my back heel be down in Warrior I?",
+      "a": "Yes. Turn your back foot out about 45° and press the heel into the mat. If it won’t stay down, shorten your stance; a lifted heel turns the pose into Crescent Lunge."
+    },
+    {
+      "q": "Do my hips need to be square in Warrior I?",
+      "a": "Point them forward as far as is comfortable, but most bodies can’t fully square them with the back heel down. Stepping your feet a little wider apart, hip-width rather than heel to heel, helps."
+    },
+    {
+      "q": "Why does my lower back hurt in Warrior I?",
+      "a": "Usually tight hip flexors on the back leg tip the pelvis forward and arch the low back. Shorten your stance and draw your tailbone down as you lift your chest."
+    },
+    {
+      "q": "What’s the difference between Warrior I and Warrior II?",
+      "a": "Warrior I faces the front with your arms overhead. Warrior II opens your hips and chest to the side with your arms out at shoulder height."
+    },
+    {
+      "q": "How can I check my Warrior I form at home?",
+      "a": "Film yourself from the side and the front. Or use Posewise, an iPhone app that measures your Warrior I with the camera, speaks corrections as you hold it, and builds a six-minute daily plan for what it finds."
+    }
+  ],
+  "llms_summary": "the five things that usually hold back Warrior I (leg strength for a 90° front knee, tight calves lifting the back heel and bending the back leg, tight hip flexors tipping the torso and twisting the hips, outer-hip strength for knee tracking, shoulder mobility for arms overhead), with the alignment rubric and a daily exercise for each."
+}

@@ -1,0 +1,104 @@
+<!-- STYLE -->
+<style>
+:root{
+  --bg:#FFFFFF; --surface:#EAF4F3; --art:#EAF4F3; --line:#D2E4E2;
+  --ink:#0E2A2E; --ink-soft:#4E6B6E; --ink-faint:#6A8689;
+  --accent:#0F7C82; --accent-deep:#0A5F64; --on-accent:#FFFFFF; --wash:#D7EBEA;
+  --sans:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --logo-l:1; --logo-d:0;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0B1F21; --surface:#14302F; --art:#14302F; --line:#24474A;
+  --ink:#E6F1F0; --ink-soft:#9FBCBA; --ink-faint:#7A9998;
+  --accent:#5FC9CD; --accent-deep:#8ADDE0; --on-accent:#0B1F21; --wash:#1A3C3E;
+  --logo-l:0; --logo-d:1;
+}}
+:root[data-theme="dark"]{
+  --bg:#0B1F21; --surface:#14302F; --art:#14302F; --line:#24474A;
+  --ink:#E6F1F0; --ink-soft:#9FBCBA; --ink-faint:#7A9998;
+  --accent:#5FC9CD; --accent-deep:#8ADDE0; --on-accent:#0B1F21; --wash:#1A3C3E;
+  --logo-l:0; --logo-d:1;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:var(--accent-deep)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:8px}
+.wrap{width:100%;max-width:640px;padding:0 20px;margin:0 auto}
+.kicker{font-size:12px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--accent);margin:0 0 10px}
+
+nav{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid var(--line)}
+nav .in{display:flex;align-items:center;justify-content:space-between;gap:14px;height:62px;padding:0 20px;max-width:1120px;margin:0 auto}
+.logowrap{position:relative;width:118px;height:29px;flex:none;display:block}
+.logowrap div{position:absolute;inset:0;background-repeat:no-repeat;background-position:left center;background-size:contain}
+.logo-dark{background-image:url(/assets/logo_dark.webp)}
+.logo-light{background-image:url(/assets/logo_light.webp)}
+.navcta{font-size:14.5px;font-weight:700;color:var(--on-accent);background:var(--accent);text-decoration:none;padding:9px 16px;border-radius:999px;white-space:nowrap}
+
+header{padding:28px 0 8px}
+h1{margin:0 0 10px;font-size:34px;font-weight:800;letter-spacing:-.034em;line-height:1.08;text-wrap:balance}
+.lede{margin:0;color:var(--ink-soft);font-size:18px}
+.hero{margin:22px 0 0;border-radius:22px;aspect-ratio:16/9;background:var(--art) url({hero}) center/contain no-repeat}
+
+h2{margin:36px 0 14px;font-size:22px;font-weight:800;letter-spacing:-.025em;line-height:1.2}
+
+.fix{background:var(--surface);border-radius:20px;padding:18px 18px 16px;margin:0 0 12px}
+.fix .say{margin:0 0 8px;font-size:17px;font-weight:700;line-height:1.35;letter-spacing:-.01em}
+.fix .say b{color:var(--accent-deep)}
+.fix .why{margin:0 0 12px;font-size:14.5px;color:var(--ink-soft)}
+.fix .try{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0;padding:0;list-style:none}
+.fix .try li{background:var(--bg);border-radius:14px;overflow:hidden;font-size:13px;font-weight:700;line-height:1.3;color:var(--ink)}
+.fix .try img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;background:var(--art)}
+.fix .try .cap{padding:8px 10px 10px}
+.fix .try .cap span{display:block;color:var(--ink-faint);font-weight:500;margin-top:2px}
+
+.rubric{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.rubric li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.rubric .name{font-weight:700;font-size:16px}
+.rubric .good{grid-column:1;font-size:14.5px;color:var(--ink-soft)}
+.rubric .target{grid-row:1/3;grid-column:2;align-self:center;text-align:right;font-size:15px;font-weight:700;color:var(--accent-deep);font-variant-numeric:tabular-nums}
+.rubric .target small{display:block;font-size:11.5px;font-weight:500;color:var(--ink-faint)}
+.rubric a{color:inherit;text-decoration:none}
+.sub{margin:-6px 0 14px;color:var(--ink-soft);font-size:15.5px}
+[id]{scroll-margin-top:76px}
+.fix .cue{margin:12px 0 0;font-size:13.5px;color:var(--accent-deep)}
+.fix .cue::before{content:"“"}
+.fix .cue::after{content:"”"}
+.cueonly{font-size:14px;color:var(--accent-deep);margin:4px 0 0}
+
+.app{border:1.5px solid var(--accent);border-radius:22px;padding:20px;margin:32px 0 0}
+.app h2{margin:0 0 8px}
+.app p{margin:0 0 16px;color:var(--ink-soft);font-size:16px}
+.btn{display:block;text-align:center;font-size:17px;font-weight:700;padding:15px 24px;border-radius:999px;background:var(--accent);color:var(--on-accent);text-decoration:none}
+.app .small{font-size:13.5px;color:var(--ink-faint);margin:10px 0 0;text-align:center}
+
+details{border-top:1px solid var(--line);padding:14px 0}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font-weight:700;font-size:16px}
+details p{margin:8px 0 0;color:var(--ink-soft);font-size:15.5px}
+
+.meta{font-size:13px;color:var(--ink-faint);margin:28px 0 48px}
+
+footer{padding:32px 0 48px;color:var(--ink-faint);font-size:14px;border-top:1px solid var(--line)}
+footer .fg{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center;max-width:1120px;margin:0 auto;padding:0 20px}
+footer .links{display:flex;gap:20px;font-weight:600}
+footer a{text-decoration:none;color:inherit}
+
+@media (min-width:640px){h1{font-size:42px}}
+</style>
+<!-- NAV -->
+<nav>
+  <div class="in">
+    <a href="/" class="logowrap" aria-label="Posewise home">
+      <div class="logo-light" style="opacity:var(--logo-l)"></div>
+      <div class="logo-dark" style="opacity:var(--logo-d)"></div>
+    </a>
+    <a class="navcta" href="/#join">Join the beta</a>
+  </div>
+</nav>
+<!-- FOOTER -->
+<footer>
+  <div class="fg">
+    <span>© 2026 Posewise.</span>
+    <div class="links"><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="mailto:hello@hawthornwest.com">Support</a></div>
+  </div>
+</footer>
