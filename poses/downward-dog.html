@@ -108,9 +108,21 @@ h2{margin:36px 0 14px;font-size:22px;font-weight:800;letter-spacing:-.025em;line
 .fix .say{margin:0 0 8px;font-size:17px;font-weight:700;line-height:1.35;letter-spacing:-.01em}
 .fix .say b{color:var(--accent-deep)}
 .fix .why{margin:0 0 12px;font-size:14.5px;color:var(--ink-soft)}
-.fix .try{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}
-.fix .try li{font-size:13px;font-weight:600;background:var(--bg);border-radius:999px;padding:5px 11px;color:var(--ink)}
-.fix .try li span{color:var(--ink-faint);font-weight:500}
+.fix .try{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0;padding:0;list-style:none}
+.fix .try li{background:var(--bg);border-radius:14px;overflow:hidden;font-size:13px;font-weight:700;line-height:1.3;color:var(--ink)}
+.fix .try img{display:block;width:100%;aspect-ratio:1;background:var(--art)}
+.fix .try .cap{padding:8px 10px 10px}
+.fix .try .cap span{display:block;color:var(--ink-faint);font-weight:500;margin-top:2px}
+
+.rubric{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.rubric li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.rubric .name{font-weight:700;font-size:16px}
+.rubric .good{grid-column:1;font-size:14.5px;color:var(--ink-soft)}
+.rubric .target{grid-row:1/3;grid-column:2;align-self:center;text-align:right;font-size:15px;font-weight:700;color:var(--accent-deep);font-variant-numeric:tabular-nums}
+.rubric .target small{display:block;font-size:11.5px;font-weight:500;color:var(--ink-faint)}
+.rubric a{color:inherit;text-decoration:none}
+.sub{margin:-6px 0 14px;color:var(--ink-soft);font-size:15.5px}
+[id]{scroll-margin-top:76px}
 .fix .cue{margin:12px 0 0;font-size:13.5px;color:var(--accent-deep)}
 .fix .cue::before{content:"“"}
 .fix .cue::after{content:"”"}
@@ -156,48 +168,60 @@ footer a{text-decoration:none;color:inherit}
   <header>
     <p class="kicker">Pose guide</p>
     <h1>How to improve your Downward Dog</h1>
-    <p class="lede">Hips high, back long, arms in line with your ears. Five things usually get in the way.</p>
+    <p class="lede">Hips high, back long, arms in line with your ears. Here’s the rubric Posewise measures it against, and what to train when you miss.</p>
     <div class="hero" role="img" aria-label="Downward-Facing Dog, seen from the side"></div>
   </header>
 
+  <h2 id="rubric">The rubric</h2>
+  <p class="sub">Posewise checks seven things from the side. Here’s what good looks like.</p>
+  <ul class="rubric">
+      <li><a class="name" href="#hamstrings">Back</a><span class="good">Long and flat, no rounding</span><span class="target">Flat<small>shoulder to hip</small></span></li>
+      <li><a class="name" href="#hamstrings">Knees</a><span class="good">Straight, but not locked</span><span class="target">165–185°<small>hip · knee · ankle</small></span></li>
+      <li><a class="name" href="#calves">Heels</a><span class="good">Reaching toward the floor</span><span class="target">62–95°<small>ankle bend</small></span></li>
+      <li><a class="name" href="#shoulders">Arms</a><span class="good">In one line with your torso</span><span class="target">155–185°<small>hip · shoulder · elbow</small></span></li>
+      <li><a class="name" href="#pressing">Elbows</a><span class="good">Straight under load</span><span class="target">160–185°<small>shoulder · elbow · wrist</small></span></li>
+      <li><a class="name" href="#wrists">Wrists</a><span class="good">Weight across the whole palm</span><span class="target">118–168°<small>wrist bend</small></span></li>
+      <li><a class="name" href="#head">Head</a><span class="good">Hanging between your arms</span><span class="target">150–185°<small>hip · shoulder · ear</small></span></li>
+  </ul>
+
   <h2>What’s holding it back</h2>
 
-  <section class="fix">
+  <section class="fix" id="hamstrings">
     <p class="say"><b>Lengthen your hamstrings</b>, and your back will stay flat and your legs will straighten.</p>
     <p class="why">Tight hamstrings pull the pelvis under, round the back and keep the knees bent. Until they ease, bend your knees: a long back matters more than straight legs.</p>
-    <ul class="try"><li>Reclined hamstring stretch <span>· 45s a side</span></li><li>Bent-knee forward fold <span>· 45s</span></li></ul>
+    <ul class="try"><li><img src="/assets/ex/reclined_hamstring_stretch.webp" alt="" width="160" height="160" loading="lazy"><div class="cap">Reclined hamstring stretch<span>45s a side</span></div></li><li><img src="/assets/ex/forward_fold_hamstring_release.webp" alt="" width="160" height="160" loading="lazy"><div class="cap">Bent-knee forward fold<span>45s</span></div></li></ul>
     <p class="cue">Bend your knees and send your hips up and back.</p>
   </section>
 
-  <section class="fix">
+  <section class="fix" id="calves">
     <p class="say"><b>Lengthen your calves</b>, and your heels will reach closer to the floor.</p>
     <p class="why">Tight calves cap how far the ankle bends. Your heels don’t need to touch.</p>
-    <ul class="try"><li>Wall calf stretch <span>· 20s a side</span></li><li>Ankle mobility drill <span>· 10 a side</span></li></ul>
+    <ul class="try"><li><img src="/assets/ex/calf_stretch.webp" alt="" width="160" height="160" loading="lazy"><div class="cap">Wall calf stretch<span>20s a side</span></div></li><li><img src="/assets/ex/ankle_dorsiflexion_drill.webp" alt="" width="160" height="160" loading="lazy"><div class="cap">Ankle mobility drill<span>10 a side</span></div></li></ul>
     <p class="cue">Pedal your heels down toward the mat.</p>
   </section>
 
-  <section class="fix">
+  <section class="fix" id="shoulders">
     <p class="say"><b>Free up your shoulders</b>, and your arms will reach in one line with your torso.</p>
     <p class="why">Shoulder range runs out under load, so the arms stop short and the shoulders creep toward the ears.</p>
-    <ul class="try"><li>Wall slides <span>· 10 reps</span></li><li>Doorway lat stretch <span>· 20s a side</span></li></ul>
+    <ul class="try"><li><img src="/assets/ex/wall_slides.webp" alt="" width="160" height="160" loading="lazy"><div class="cap">Wall slides<span>10 reps</span></div></li><li><img src="/assets/ex/doorway_lat_stretch.webp" alt="" width="160" height="160" loading="lazy"><div class="cap">Doorway lat stretch<span>20s a side</span></div></li></ul>
     <p class="cue">Reach your arms in line with your ears.</p>
   </section>
 
-  <section class="fix">
+  <section class="fix" id="pressing">
     <p class="say"><b>Build pressing strength</b>, and your arms will stay straight and your weight will shift back into your legs.</p>
     <p class="why">When the shoulders and core give way, the elbows bend and you lean forward into your hands.</p>
-    <ul class="try"><li>Plank hold <span>· 30s</span></li><li>Plank to down dog <span>· 8 slow reps</span></li></ul>
+    <ul class="try"><li><img src="/assets/ex/plank_hold.webp" alt="" width="160" height="160" loading="lazy"><div class="cap">Plank hold<span>30s</span></div></li><li><img src="/assets/ex/plank_to_downdog.webp" alt="" width="160" height="160" loading="lazy"><div class="cap">Plank to down dog<span>8 slow reps</span></div></li></ul>
     <p class="cue">Push the floor away and send your hips back.</p>
   </section>
 
-  <section class="fix">
+  <section class="fix" id="wrists">
     <p class="say"><b>Free up your wrists</b>, and your weight will spread across the whole palm.</p>
     <p class="why">Weight sinking into the heel of the hand is the usual cause of wrist pain here.</p>
-    <ul class="try"><li>Wrist mobility prep <span>· 40s</span></li><li>Kneeling forearm stretch <span>· 20s each way</span></li></ul>
+    <ul class="try"><li><img src="/assets/ex/wrist_mobility_prep.webp" alt="" width="160" height="160" loading="lazy"><div class="cap">Wrist mobility prep<span>40s</span></div></li><li><img src="/assets/ex/scapular_pushups.webp" alt="" width="160" height="160" loading="lazy"><div class="cap">Scapular push-ups<span>12 reps</span></div></li></ul>
     <p class="cue">Spread your fingers and press through each knuckle.</p>
   </section>
 
-  <p class="cueonly"><b>And one cue:</b> let your head hang between your arms instead of looking forward.</p>
+  <p class="cueonly" id="head"><b>And one cue:</b> let your head hang between your arms instead of looking forward.</p>
 
   <section class="app" id="check-your-form">
     <h2>Not sure which one is yours?</h2>
