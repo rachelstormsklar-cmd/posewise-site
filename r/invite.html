@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A friend invited you to Posewise</title>
+<meta name="description" content="Posewise checks your yoga form with your camera and builds a six-minute daily routine around it. A friend invited you to the beta.">
+<meta property="og:title" content="A friend invited you to Posewise">
+<meta property="og:description" content="Better asanas. Six minutes a day. Join the beta.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://posewise.app/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="robots" content="noindex">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<style>
+:root{--bg:#FFF;--surface:#EAF4F3;--line:#D2E4E2;--ink:#0E2A2E;--ink-soft:#4E6B6E;--accent:#0F7C82;--on-accent:#fff;
+--sans:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme:dark){:root{--bg:#0B1F21;--surface:#14302F;--line:#24474A;--ink:#E6F1F0;--ink-soft:#9FBCBA;--accent:#5FC9CD;--on-accent:#0B1F21}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);min-height:100vh;display:grid;place-items:center;padding:24px}
+.card{width:100%;max-width:440px;text-align:center}
+.logo{width:150px;height:38px;margin:0 auto 30px;background:url(/assets/logo_light.webp) no-repeat center/contain}
+@media (prefers-color-scheme:dark){.logo{background-image:url(/assets/logo_dark.webp)}}
+h1{font-size:34px;font-weight:800;letter-spacing:-.03em;margin:0 0 12px;line-height:1.08}
+p{color:var(--ink-soft);font-size:17px;line-height:1.5;margin:0 0 24px}
+form{display:grid;gap:10px;text-align:left}
+input{font:inherit;font-size:16px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;width:100%}
+button{font:inherit;font-weight:700;font-size:16px;background:var(--accent);color:var(--on-accent);border:0;border-radius:999px;padding:15px 28px;cursor:pointer}
+.small{font-size:13px;margin:14px 0 0;color:var(--ink-soft);text-align:center}
+.code{display:none;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-weight:600;letter-spacing:.08em}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo"></div>
+    <h1>A friend thinks you'd like this.</h1>
+    <p>Posewise checks your yoga form with your camera, then builds a six-minute daily routine around what it finds. Leave your email and we'll write the moment there's room in the beta.</p>
+    <form action="https://formsubmit.co/rachelsklar523@hotmail.com" method="POST">
+      <input type="text" name="name" placeholder="First name (optional)" autocomplete="given-name" aria-label="First name">
+      <input type="email" name="email" placeholder="Email address" autocomplete="email" required aria-label="Email address">
+      <input type="hidden" name="referral" id="referral" value="">
+      <input type="hidden" name="_subject" id="subject" value="New Posewise beta signup (referred)">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="https://posewise.app/thanks">
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+      <button type="submit">Join the beta</button>
+    </form>
+    <p class="small">Invited with code <span class="code" id="code"></span></p>
+  </div>
+<script>
+// /r/<code> is served by this page (see _redirects); the code is the last path segment. Only well-formed
+// codes are kept, so the hidden field can't carry anything else.
+(function () {
+  var code = (location.pathname.split('/').filter(Boolean).pop() || '').toUpperCase();
+  if (!/^[2-9A-HJKMNP-Z]{6}$/.test(code)) { document.querySelector('.small').style.display = 'none'; return; }
+  document.getElementById('referral').value = code;
+  document.getElementById('subject').value = 'New Posewise beta signup (referred by ' + code + ')';
+  var el = document.getElementById('code'); el.textContent = code; el.style.display = 'inline';
+})();
+</script>
+</body>
+</html>
